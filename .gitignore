@@ -5,13 +5,14 @@
 *.rpgproject.bak
 /Backup/
 
-# System files that change frequently and cause unnecessary diffs
-js/rmmz_managers.js
-js/rmmz_objects.js
-js/rmmz_scenes.js
-js/rmmz_sprites.js
-js/rmmz_windows.js
-js/plugins.js # If you manage plugins manually or through a separate system
+# TODO: С этой настройкой было Failed to load js/rmmz_managers.js
+## System files that change frequently and cause unnecessary diffs
+#js/rmmz_managers.js
+#js/rmmz_objects.js
+#js/rmmz_scenes.js
+#js/rmmz_sprites.js
+#js/rmmz_windows.js
+#js/plugins.js # If you manage plugins manually or through a separate system
 
 # Generated files from build/deployment
 /www/ # If you are building for web and don't want to commit the output
