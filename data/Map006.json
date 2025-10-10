@@ -1029,6 +1029,18 @@
 					"list": [
 						{ "code": 101, "indent": 0, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Вы нашли \\V[1] мухоморов" ] },
+						{ "code": 101, "indent": 0, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Ублюдок, мать твою, а ну, иди сюда, говно " ] },
+						{ "code": 401, "indent": 0, "parameters": [ "собачье, а? Сдуру решил ко мне лезть, ты? " ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Засранец вонючий, мать твою, а? " ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Ну, иди сюда, попробуй меня трахнуть — я тебя " ] },
+						{ "code": 101, "indent": 0, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "сам трахну, ублюдок, онанист чёртов, будь ты " ] },
+						{ "code": 401, "indent": 0, "parameters": [ "проклят! Иди, идиот, трахать тебя и всю твою " ] },
+						{ "code": 401, "indent": 0, "parameters": [ "семью! Говно собачье, жлоб вонючий, дерьмо, " ] },
+						{ "code": 401, "indent": 0, "parameters": [ "сука, падла! Иди сюда, мерзавец, негодяй, гад! " ] },
+						{ "code": 101, "indent": 0, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Иди сюда, ты, говно, жопа!" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,

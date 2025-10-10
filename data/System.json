@@ -5,10 +5,10 @@
 		"screenHeight": 624,
 		"uiAreaWidth": 816,
 		"uiAreaHeight": 624,
-		"numberFontFilename": "mplus-2p-bold-sub.woff",
-		"fallbackFonts": "Verdana, sans-serif",
+		"numberFontFilename": "Comic Sans MS.ttf",
+		"fallbackFonts": "Comic Sans MS, Verdana, sans-serif",
 		"fontSize": 26,
-		"mainFontFilename": "mplus-1m-regular.woff",
+		"mainFontFilename": "Comic Sans MS.ttf",
 		"screenScale": 1,
 		"windowOpacity": 192
 	},
@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 9,
+	"editMapId": 6,
 	"elements": [
 		"",
 		"Физический",
@@ -161,9 +161,9 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 9,
-	"startX": 4,
-	"startY": 12,
+	"startMapId": 6,
+	"startX": 6,
+	"startY": 3,
 	"switches": [
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 72818714,
+	"versionId": 30450534,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
