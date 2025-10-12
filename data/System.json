@@ -45,8 +45,8 @@
 		{ "type": 0, "weaponImageId": 12 }
 	],
 	"battleBgm": { "name": "Battle1", "pan": 0, "pitch": 100, "volume": 90 },
-	"battleback1Name": "GrassMaze",
-	"battleback2Name": "GrassMaze",
+	"battleback1Name": "Ship",
+	"battleback2Name": "Ship",
 	"battlerHue": 0,
 	"battlerName": "Hi_monster",
 	"battleSystem": 0,
@@ -302,7 +302,7 @@
 		{ "actorId": 6, "level": 1, "equips": [ 7, 0, 65, 21, 0 ] },
 		{ "actorId": 7, "level": 1, "equips": [ 7, 0, 0, 20, 0 ] }
 	],
-	"testTroopId": 6,
+	"testTroopId": 7,
 	"title1Name": "Ruins",
 	"title2Name": "",
 	"titleBgm": { "name": "Theme4", "pan": 0, "pitch": 100, "volume": 90 },
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 93774067,
+	"versionId": 35091948,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",

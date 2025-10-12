@@ -151,7 +151,7 @@
 			{ "conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1 }
 		],
 		"battlerHue": 0,
-		"battlerName": "",
+		"battlerName": "Demon_metamorphosis",
 		"dropItems": [
 			{ "dataId": 1, "denominator": 1, "kind": 0 },
 			{ "dataId": 1, "denominator": 1, "kind": 0 },
@@ -164,9 +164,9 @@
 			{ "code": 31, "dataId": 1, "value": 0 }
 		],
 		"gold": 0,
-		"name": "",
+		"name": "Кракен",
 		"note": "",
-		"params": [ 100, 0, 10, 10, 10, 10, 10, 10 ]
+		"params": [ 99999, 0, 666, 666, 666, 666, 666, 1 ]
 	},
 	{
 		"id": 8,

@@ -179,8 +179,10 @@
 	},
 	{
 		"id": 7,
-		"members": [],
-		"name": "",
+		"members": [
+			{ "enemyId": 7, "x": 413, "y": 444, "hidden": false }
+		],
+		"name": "Кракен",
 		"pages": [
 			{
 				"conditions": {
