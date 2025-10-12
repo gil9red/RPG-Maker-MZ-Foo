@@ -189,13 +189,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
-						{ "code": 122, "indent": 0, "parameters": [ 1, 1, 1, 0, 1 ] },
-						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Coin", "volume": 15, "pitch": 100, "pan": 0 } ] },
-						{ "code": 101, "indent": 0, "parameters": [ "Actor1", 0, 0, 2, "Рид" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Огроменный гриб!" ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 1, 2, "" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Всего мухоморов: \\V[1]" ] },
+						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -659,13 +653,15 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
-						{ "code": 122, "indent": 0, "parameters": [ 1, 1, 1, 0, 1 ] },
-						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Coin", "volume": 15, "pitch": 100, "pan": 0 } ] },
-						{ "code": 101, "indent": 0, "parameters": [ "Actor1", 0, 0, 2, "Рид" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Огроменный гриб!" ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 1, 2, "" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Всего мухоморов: \\V[1]" ] },
+						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
+						{ "code": 111, "indent": 0, "parameters": [ 2, "B", 1 ] },
+						{ "code": 101, "indent": 1, "parameters": [ "", 0, 1, 2, "" ] },
+						{ "code": 401, "indent": 1, "parameters": [ "Рядом заметили 10 монет" ] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Coin", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 125, "indent": 1, "parameters": [ 0, 0, 10 ] },
+						{ "code": 123, "indent": 1, "parameters": [ "B", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 412, "indent": 0, "parameters": [] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -725,7 +721,7 @@
 				}
 			],
 			"x": 13,
-			"y": 7
+			"y": 6
 		},
 		{
 			"id": 10,
@@ -751,13 +747,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
-						{ "code": 122, "indent": 0, "parameters": [ 1, 1, 1, 0, 1 ] },
-						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Coin", "volume": 15, "pitch": 100, "pan": 0 } ] },
-						{ "code": 101, "indent": 0, "parameters": [ "Actor1", 0, 0, 2, "Рид" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Огроменный гриб!" ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 1, 2, "" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Всего мухоморов: \\V[1]" ] },
+						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -816,8 +806,8 @@
 					"walkAnime": false
 				}
 			],
-			"x": 12,
-			"y": 3
+			"x": 14,
+			"y": 2
 		},
 		{
 			"id": 11,
@@ -843,13 +833,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
-						{ "code": 122, "indent": 0, "parameters": [ 1, 1, 1, 0, 1 ] },
-						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Coin", "volume": 15, "pitch": 100, "pan": 0 } ] },
-						{ "code": 101, "indent": 0, "parameters": [ "Actor1", 0, 0, 2, "Рид" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Огроменный гриб!" ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 1, 2, "" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Всего мухоморов: \\V[1]" ] },
+						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -935,13 +919,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
-						{ "code": 122, "indent": 0, "parameters": [ 1, 1, 1, 0, 1 ] },
-						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Coin", "volume": 15, "pitch": 100, "pan": 0 } ] },
-						{ "code": 101, "indent": 0, "parameters": [ "Actor1", 0, 0, 2, "Рид" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Огроменный гриб!" ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 1, 2, "" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Всего мухоморов: \\V[1]" ] },
+						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -1000,7 +978,7 @@
 					"walkAnime": false
 				}
 			],
-			"x": 3,
+			"x": 1,
 			"y": 3
 		},
 		{
@@ -1027,20 +1005,22 @@
 					"directionFix": true,
 					"image": { "tileId": 0, "characterName": "Evil", "direction": 2, "pattern": 0, "characterIndex": 2 },
 					"list": [
-						{ "code": 111, "indent": 0, "parameters": [ 2, "B", 0 ] },
+						{ "code": 111, "indent": 0, "parameters": [ 2, "A", 0 ] },
 						{ "code": 101, "indent": 1, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 1, "parameters": [ "Идите дальше, я занята" ] },
 						{ "code": 115, "indent": 1, "parameters": [] },
 						{ "code": 0, "indent": 1, "parameters": [] },
 						{ "code": 412, "indent": 0, "parameters": [] },
-						{ "code": 111, "indent": 0, "parameters": [ 2, "A", 0 ] },
+						{ "code": 111, "indent": 0, "parameters": [ 0, 1, 0 ] },
 						{ "code": 101, "indent": 1, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 1, "parameters": [ "Вы нашли \\V[1] мухоморов" ] },
 						{ "code": 111, "indent": 1, "parameters": [ 1, 1, 0, 5, 1 ] },
 						{ "code": 101, "indent": 2, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 2, "parameters": [ "Хорошая работа, держите награду" ] },
-						{ "code": 316, "indent": 2, "parameters": [ 0, 0, 0, 0, 3, true ] },
-						{ "code": 123, "indent": 2, "parameters": [ "B", 0 ] },
+						{ "code": 315, "indent": 2, "parameters": [ 0, 0, 0, 0, 70, true ] },
+						{ "code": 121, "indent": 2, "parameters": [ 1, 1, 1 ] },
+						{ "code": 108, "indent": 2, "parameters": [ "Чтобы больше не давала квест" ] },
+						{ "code": 123, "indent": 2, "parameters": [ "A", 0 ] },
 						{ "code": 0, "indent": 2, "parameters": [] },
 						{ "code": 411, "indent": 1, "parameters": [] },
 						{ "code": 101, "indent": 2, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
@@ -1055,7 +1035,7 @@
 						{ "code": 402, "indent": 1, "parameters": [ 0, "Да" ] },
 						{ "code": 101, "indent": 2, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 2, "parameters": [ "Вперед и быстро!" ] },
-						{ "code": 123, "indent": 2, "parameters": [ "A", 0 ] },
+						{ "code": 121, "indent": 2, "parameters": [ 1, 1, 0 ] },
 						{ "code": 0, "indent": 2, "parameters": [] },
 						{ "code": 402, "indent": 1, "parameters": [ 1, "Нет" ] },
 						{ "code": 101, "indent": 2, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
@@ -1096,6 +1076,9 @@
 			],
 			"x": 6,
 			"y": 2
-		}
+		},
+		null,
+		null,
+		null
 	]
 }

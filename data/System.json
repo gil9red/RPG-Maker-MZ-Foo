@@ -166,7 +166,7 @@
 	"startY": 3,
 	"switches": [
 		"",
-		"",
+		"Квест. Мухоморы",
 		"",
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 30450534,
+	"versionId": 79033594,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
