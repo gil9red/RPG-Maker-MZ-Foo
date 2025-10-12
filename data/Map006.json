@@ -1102,7 +1102,7 @@
 					"image": { "tileId": 0, "characterName": "!Door2", "direction": 2, "pattern": 0, "characterIndex": 1 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Teleport", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 9, 4, 12, 8, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 9, 4, 11, 8, 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,

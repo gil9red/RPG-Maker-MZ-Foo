@@ -5,7 +5,7 @@
 	{ "id": 3, "expanded": false, "name": "Каменная пещера", "order": 3, "parentId": 1, "scrollX": 843, "scrollY": 1274.3999999999999, "quick": false },
 	{ "id": 4, "expanded": false, "name": "Мир 1", "order": 4, "parentId": 1, "scrollX": 4654.222222222223, "scrollY": 3681.777777777778, "quick": false },
 	{ "id": 5, "expanded": true, "name": "Офис (1 этаж)", "order": 6, "parentId": 7, "scrollX": 534.6, "scrollY": 634.8, "quick": false },
-	{ "id": 6, "expanded": true, "name": "Лес с грибами", "order": 7, "parentId": 1, "scrollX": 409.77777777777777, "scrollY": 335.1111111111111, "quick": false },
+	{ "id": 6, "expanded": true, "name": "Лес с грибами", "order": 7, "parentId": 1, "scrollX": 412.8888888888889, "scrollY": 339.55555555555554, "quick": false },
 	{ "id": 7, "expanded": true, "name": "Большой город", "order": 5, "parentId": 1, "scrollX": 843.5999999999999, "scrollY": 634.8, "quick": false },
 	null,
 	{ "id": 9, "expanded": false, "name": "Вершина холма", "order": 8, "parentId": 1, "scrollX": 0, "scrollY": 0, "quick": false }
