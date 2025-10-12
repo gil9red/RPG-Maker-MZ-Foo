@@ -162,7 +162,7 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
 	"startMapId": 6,
-	"startX": 6,
+	"startX": 7,
 	"startY": 3,
 	"switches": [
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 79033594,
+	"versionId": 80688313,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
