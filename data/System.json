@@ -162,7 +162,7 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
 	"startMapId": 6,
-	"startX": 11,
+	"startX": 12,
 	"startY": 11,
 	"switches": [
 		"",
