@@ -26,11 +26,21 @@
 	{
 		"id": 2,
 		"list": [
+			{ "code": 201, "indent": 0, "parameters": [ 0, 4, 97, 80, 0, 0 ] },
+			{ "code": 213, "indent": 0, "parameters": [ 2, 5, false ] },
+			{ "code": 204, "indent": 0, "parameters": [ 8, 4, 4, false ] },
+			{ "code": 101, "indent": 0, "parameters": [ "Monster", 7, 0, 2, "" ] },
+			{ "code": 401, "indent": 0, "parameters": [ "!!!" ] },
+			{ "code": 211, "indent": 0, "parameters": [ 0 ] },
+			{ "code": 213, "indent": 0, "parameters": [ -1, 1, false ] },
+			{ "code": 236, "indent": 0, "parameters": [ "storm", 5, 120, true ] },
+			{ "code": 225, "indent": 0, "parameters": [ 5, 5, 120, true ] },
+			{ "code": 121, "indent": 0, "parameters": [ 2, 2, 1 ] },
 			{ "code": 0, "indent": 0, "parameters": [] }
 		],
-		"name": "",
-		"switchId": 1,
-		"trigger": 0
+		"name": "Выпустить кракена",
+		"switchId": 2,
+		"trigger": 2
 	},
 	{
 		"id": 3,
