@@ -1018,6 +1018,8 @@
 						{ "code": 101, "indent": 2, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 2, "parameters": [ "Хорошая работа, держите награду" ] },
 						{ "code": 315, "indent": 2, "parameters": [ 0, 0, 0, 0, 70, true ] },
+						{ "code": 126, "indent": 2, "parameters": [ 35, 1, 1, 1 ] },
+						{ "code": 122, "indent": 2, "parameters": [ 1, 1, 0, 0, 0 ] },
 						{ "code": 121, "indent": 2, "parameters": [ 1, 1, 1 ] },
 						{ "code": 108, "indent": 2, "parameters": [ "Чтобы больше не давала квест" ] },
 						{ "code": 123, "indent": 2, "parameters": [ "A", 0 ] },
