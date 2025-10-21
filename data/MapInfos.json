@@ -1,12 +1,17 @@
 [
 	null,
 	{ "id": 1, "expanded": true, "name": "Field Map", "order": 1, "parentId": 0, "scrollX": 417, "scrollY": 452.4 },
-	{ "id": 2, "expanded": false, "name": "Обычный город", "order": 2, "parentId": 1, "scrollX": 855.1111111111111, "scrollY": 638.2222222222222, "quick": false },
-	{ "id": 3, "expanded": false, "name": "Каменная пещера", "order": 3, "parentId": 1, "scrollX": 842.6666666666666, "scrollY": 1274.6666666666667, "quick": false },
-	{ "id": 4, "expanded": false, "name": "Мир 1", "order": 4, "parentId": 1, "scrollX": 4654.222222222223, "scrollY": 3699.5555555555557, "quick": false },
-	{ "id": 5, "expanded": true, "name": "Офис (1 этаж)", "order": 6, "parentId": 7, "scrollX": 534.6, "scrollY": 634.8, "quick": false },
-	{ "id": 6, "expanded": true, "name": "Лес с грибами", "order": 7, "parentId": 1, "scrollX": 422.22222222222223, "scrollY": 318.22222222222223, "quick": false },
-	{ "id": 7, "expanded": true, "name": "Большой город", "order": 5, "parentId": 1, "scrollX": 843.5999999999999, "scrollY": 634.8, "quick": false },
+	{ "id": 2, "expanded": true, "name": "Обычный город", "order": 2, "parentId": 1, "scrollX": 686, "scrollY": 516.6666666666666, "quick": false },
+	{ "id": 3, "expanded": false, "name": "Каменная пещера", "order": 4, "parentId": 1, "scrollX": 842.6666666666666, "scrollY": 1274.6666666666667, "quick": false },
+	{ "id": 4, "expanded": false, "name": "Мир 1", "order": 5, "parentId": 1, "scrollX": 4654.222222222223, "scrollY": 3699.5555555555557, "quick": false },
+	{ "id": 5, "expanded": true, "name": "Офис (1 этаж)", "order": 9, "parentId": 7, "scrollX": 938.6666666666666, "scrollY": 672.6666666666666, "quick": false },
+	{ "id": 6, "expanded": true, "name": "Лес с грибами", "order": 12, "parentId": 1, "scrollX": 686, "scrollY": 516.6666666666666, "quick": false },
+	{ "id": 7, "expanded": true, "name": "Большой город", "order": 6, "parentId": 1, "scrollX": 938.6666666666666, "scrollY": 635.3333333333334, "quick": false },
+	{ "id": 8, "expanded": true, "name": "Обычный дом", "order": 7, "parentId": 7, "scrollX": 821.3333333333334, "scrollY": 514.6666666666666, "quick": false },
+	{ "id": 9, "expanded": false, "name": "Вершина холма", "order": 13, "parentId": 1, "scrollX": 0, "scrollY": 0, "quick": false },
+	{ "id": 10, "expanded": true, "name": "Квартира", "order": 8, "parentId": 8, "scrollX": 938.6666666666666, "scrollY": 527.3333333333334, "quick": false },
+	{ "id": 11, "expanded": false, "name": "Офис (2 этаж)", "order": 10, "parentId": 5, "scrollX": 938.6666666666666, "scrollY": 527.3333333333334, "quick": false },
+	{ "id": 12, "expanded": false, "name": "Класс в школе", "order": 11, "parentId": 7, "scrollX": 0, "scrollY": 0, "quick": false },
 	null,
-	{ "id": 9, "expanded": false, "name": "Вершина холма", "order": 8, "parentId": 1, "scrollX": 0, "scrollY": 0, "quick": false }
+	{ "id": 14, "expanded": false, "name": "Постоялый двор (1 этаж)", "order": 3, "parentId": 2, "scrollX": 686, "scrollY": 516.6666666666666, "quick": false }
 ]

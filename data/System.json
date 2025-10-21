@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 2,
+	"editMapId": 14,
 	"elements": [
 		"",
 		"Физический",
@@ -162,8 +162,8 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
 	"startMapId": 2,
-	"startX": 12,
-	"startY": 19,
+	"startX": 1,
+	"startY": 3,
 	"switches": [
 		"",
 		"Квест. Мухоморы",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 11583282,
+	"versionId": 91598669,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",

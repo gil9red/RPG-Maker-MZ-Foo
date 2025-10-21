@@ -453,6 +453,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "!Door1", "direction": 2, "pattern": 1, "characterIndex": 6 },
 					"list": [
+						{ "code": 201, "indent": 0, "parameters": [ 0, 14, 10, 18, 0, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
