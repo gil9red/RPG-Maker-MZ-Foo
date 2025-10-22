@@ -451,7 +451,7 @@
 						"variableValue": 0
 					},
 					"directionFix": false,
-					"image": { "tileId": 137, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
+					"image": { "tileId": 138, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
 						{ "code": 111, "indent": 0, "parameters": [ 6, -1, 2 ] },
 						{ "code": 101, "indent": 1, "parameters": [ "", 0, 0, 2, "" ] },
