@@ -113,7 +113,7 @@
 	"optFloorDeath": false,
 	"optFollowers": true,
 	"optKeyItemsNumber": true,
-	"optSideView": false,
+	"optSideView": true,
 	"optSlipDeath": false,
 	"optTransparent": false,
 	"partyMembers": [
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 51252702,
+	"versionId": 22744364,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
