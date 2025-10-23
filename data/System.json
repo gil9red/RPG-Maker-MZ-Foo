@@ -113,7 +113,7 @@
 	"optFloorDeath": false,
 	"optFollowers": true,
 	"optKeyItemsNumber": true,
-	"optSideView": true,
+	"optSideView": false,
 	"optSlipDeath": false,
 	"optTransparent": false,
 	"partyMembers": [
@@ -163,7 +163,7 @@
 	],
 	"startMapId": 2,
 	"startX": 17,
-	"startY": 12,
+	"startY": 15,
 	"switches": [
 		"",
 		"Квест. Мухоморы",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 33676767,
+	"versionId": 51252702,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",

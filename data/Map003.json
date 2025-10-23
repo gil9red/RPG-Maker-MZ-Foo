@@ -1029,11 +1029,11 @@
 					"list": [
 						{ "code": 217, "indent": 0, "parameters": [] },
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Door1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 205, "indent": 0, "parameters": [ 0, { "repeat": false, "skippable": false, "wait": true, "list": [ { "code": 36 }, { "code": 18 }, { "code": 15, "parameters": [ 3 ] }, { "code": 17 }, { "code": 15, "parameters": [ 3 ] }, { "code": 0 } ] } ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 36 }, { "code": 17, "indent": null }, { "code": 15, "parameters": [ 3 ] }, { "code": 16, "indent": null }, { "code": 15, "parameters": [ 3 ] }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 36 } ] },
-						{ "code": 505, "indent": 0, "parameters": [ { "code": 18 } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 17, "indent": null } ] },
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 3 ] } ] },
-						{ "code": 505, "indent": 0, "parameters": [ { "code": 17 } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 16, "indent": null } ] },
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 3 ] } ] },
 						{ "code": 121, "indent": 0, "parameters": [ 3, 3, 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }

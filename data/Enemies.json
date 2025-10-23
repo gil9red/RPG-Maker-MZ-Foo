@@ -151,7 +151,7 @@
 			{ "conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1 }
 		],
 		"battlerHue": 0,
-		"battlerName": "Demon_metamorphosis",
+		"battlerName": "Kraken",
 		"dropItems": [
 			{ "dataId": 1, "denominator": 1, "kind": 0 },
 			{ "dataId": 1, "denominator": 1, "kind": 0 },
