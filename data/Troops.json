@@ -208,8 +208,13 @@
 	},
 	{
 		"id": 8,
-		"members": [],
-		"name": "",
+		"members": [
+			{ "enemyId": 2, "x": 309, "y": 299, "hidden": false },
+			{ "enemyId": 2, "x": 321, "y": 418, "hidden": false },
+			{ "enemyId": 3, "x": 160, "y": 334, "hidden": false },
+			{ "enemyId": 3, "x": 174, "y": 444, "hidden": false }
+		],
+		"name": "Гном*2, Ворон*2",
 		"pages": [
 			{
 				"conditions": {

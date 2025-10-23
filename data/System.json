@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 3,
+	"editMapId": 2,
 	"elements": [
 		"",
 		"Физический",
@@ -113,7 +113,7 @@
 	"optFloorDeath": false,
 	"optFollowers": true,
 	"optKeyItemsNumber": true,
-	"optSideView": false,
+	"optSideView": true,
 	"optSlipDeath": false,
 	"optTransparent": false,
 	"partyMembers": [
@@ -161,14 +161,14 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 3,
-	"startX": 21,
-	"startY": 23,
+	"startMapId": 2,
+	"startX": 17,
+	"startY": 12,
 	"switches": [
 		"",
 		"Квест. Мухоморы",
 		"Выпустить кракена",
-		"",
+		"Дверь подземелья",
 		"",
 		"",
 		"",
@@ -297,12 +297,12 @@
 		}
 	},
 	"testBattlers": [
-		{ "actorId": 1, "level": 1, "equips": [ 2, 1, 2, 3, 0 ] },
+		{ "actorId": 1, "level": 1, "equips": [ 2, 0, 0, 3, 0 ] },
 		{ "actorId": 4, "level": 1, "equips": [ 31, 0, 0, 5, 0 ] },
 		{ "actorId": 6, "level": 1, "equips": [ 7, 0, 65, 21, 0 ] },
 		{ "actorId": 7, "level": 1, "equips": [ 7, 0, 0, 20, 0 ] }
 	],
-	"testTroopId": 7,
+	"testTroopId": 8,
 	"title1Name": "Ruins",
 	"title2Name": "",
 	"titleBgm": { "name": "Theme4", "pan": 0, "pitch": 100, "volume": 90 },
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 97756154,
+	"versionId": 33676767,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
