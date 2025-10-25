@@ -162,14 +162,14 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
 	"startMapId": 2,
-	"startX": 17,
-	"startY": 15,
+	"startX": 25,
+	"startY": 18,
 	"switches": [
 		"",
 		"Квест. Мухоморы",
 		"Выпустить кракена",
 		"Дверь подземелья",
-		"",
+		"Кот с сундуком",
 		"",
 		"",
 		"",
@@ -302,7 +302,7 @@
 		{ "actorId": 6, "level": 1, "equips": [ 7, 0, 65, 21, 0 ] },
 		{ "actorId": 7, "level": 1, "equips": [ 7, 0, 0, 20, 0 ] }
 	],
-	"testTroopId": 8,
+	"testTroopId": 7,
 	"title1Name": "Ruins",
 	"title2Name": "",
 	"titleBgm": { "name": "Theme4", "pan": 0, "pitch": 100, "volume": 90 },
@@ -314,7 +314,7 @@
 	"variables": [
 		"",
 		"Мухоморы",
-		"",
+		"Счетчик кота с сундуком",
 		"",
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 22744364,
+	"versionId": 79328533,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
