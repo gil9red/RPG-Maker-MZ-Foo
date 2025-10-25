@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 2,
+	"editMapId": 6,
 	"elements": [
 		"",
 		"Физический",
@@ -161,16 +161,16 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 2,
-	"startX": 25,
-	"startY": 18,
+	"startMapId": 6,
+	"startX": 6,
+	"startY": 3,
 	"switches": [
 		"",
-		"Квест. Мухоморы",
+		"Квест.Мухоморы",
 		"Выпустить кракена",
 		"Дверь подземелья",
 		"Кот с сундуком",
-		"",
+		"Квест.Мухоморы.Завершен",
 		"",
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 79328533,
+	"versionId": 97792722,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
