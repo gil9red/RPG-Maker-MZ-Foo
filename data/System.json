@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 6,
+	"editMapId": 2,
 	"elements": [
 		"",
 		"Физический",
@@ -161,9 +161,9 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 6,
-	"startX": 6,
-	"startY": 3,
+	"startMapId": 2,
+	"startX": 17,
+	"startY": 30,
 	"switches": [
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 62149445,
+	"versionId": 18700759,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
