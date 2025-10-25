@@ -2166,7 +2166,8 @@
 			{ "frame": 89, "se": { "name": "Wind2", "pan": 0, "pitch": 150, "volume": 90 } },
 			{ "frame": 119, "se": { "name": "Magic12", "pan": 0, "pitch": 100, "volume": 90 } }
 		],
-		"speed": 100
+		"speed": 100,
+		"timings": []
 	},
 	{
 		"id": 101,
