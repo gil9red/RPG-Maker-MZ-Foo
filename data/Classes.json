@@ -192,7 +192,8 @@
 			{ "level": 15, "note": "", "skillId": 54 },
 			{ "level": 18, "note": "", "skillId": 62 },
 			{ "level": 18, "note": "", "skillId": 142 },
-			{ "level": 25, "note": "", "skillId": 145 }
+			{ "level": 25, "note": "", "skillId": 145 },
+			{ "level": 1, "skillId": 5, "note": "" }
 		],
 		"name": "Жрец",
 		"note": "",
