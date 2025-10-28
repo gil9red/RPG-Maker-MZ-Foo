@@ -87,7 +87,8 @@
 			{ "code": 41, "dataId": 1, "value": 0 },
 			{ "code": 51, "dataId": 6, "value": 0 },
 			{ "code": 52, "dataId": 1, "value": 0 },
-			{ "code": 52, "dataId": 2, "value": 0 }
+			{ "code": 52, "dataId": 2, "value": 0 },
+			{ "code": 41, "dataId": 2, "value": 1 }
 		],
 		"learnings": [
 			{ "level": 1, "note": "", "skillId": 99 },
@@ -102,7 +103,8 @@
 			{ "level": 18, "note": "", "skillId": 104 },
 			{ "level": 21, "note": "", "skillId": 101 },
 			{ "level": 21, "note": "", "skillId": 132 },
-			{ "level": 25, "note": "", "skillId": 189 }
+			{ "level": 25, "note": "", "skillId": 189 },
+			{ "level": 1, "skillId": 4, "note": "" }
 		],
 		"name": "Волшебник",
 		"note": "",

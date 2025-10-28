@@ -28,7 +28,7 @@
 	},
 	{
 		"id": 2,
-		"animationId": 0,
+		"animationId": 41,
 		"consumable": true,
 		"damage": {
 			"critical": false,
@@ -37,15 +37,17 @@
 			"type": 0,
 			"variance": 20
 		},
-		"description": "",
-		"effects": [],
+		"description": "Восстанавливает 50 TP.",
+		"effects": [
+			{ "code": 13, "dataId": 0, "value1": 50, "value2": 0 }
+		],
 		"hitType": 0,
-		"iconIndex": 0,
+		"iconIndex": 176,
 		"itypeId": 1,
-		"name": "",
+		"name": "Восстановить TP",
 		"note": "",
-		"occasion": 0,
-		"price": 0,
+		"occasion": 1,
+		"price": 100,
 		"repeats": 1,
 		"scope": 7,
 		"speed": 0,
@@ -421,7 +423,7 @@
 	},
 	{
 		"id": 16,
-		"animationId": 0,
+		"animationId": 43,
 		"consumable": true,
 		"damage": {
 			"critical": false,
@@ -430,17 +432,20 @@
 			"type": 0,
 			"variance": 20
 		},
-		"description": "",
-		"effects": [],
+		"description": "Полностью восстанавливает HP и MP всей партии.",
+		"effects": [
+			{ "code": 11, "dataId": 0, "value1": 1, "value2": 0 },
+			{ "code": 12, "dataId": 0, "value1": 1, "value2": 0 }
+		],
 		"hitType": 0,
-		"iconIndex": 0,
+		"iconIndex": 176,
 		"itypeId": 1,
-		"name": "",
+		"name": "Мега эликсир",
 		"note": "",
 		"occasion": 0,
-		"price": 0,
+		"price": 5000,
 		"repeats": 1,
-		"scope": 7,
+		"scope": 8,
 		"speed": 0,
 		"successRate": 100,
 		"tpGain": 0
