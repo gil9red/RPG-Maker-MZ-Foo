@@ -99,9 +99,9 @@
 	{
 		"id": 5,
 		"actions": [
-			{ "conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1 },
-			{ "skillId": 99, "rating": 4, "conditionType": 1, "conditionParam1": 0, "conditionParam2": 2 },
-			{ "skillId": 13, "rating": 6, "conditionType": 2, "conditionParam1": 0, "conditionParam2": 0.3 }
+			{ "skillId": 14, "rating": 5, "conditionType": 0, "conditionParam1": 0, "conditionParam2": 0 },
+			{ "skillId": 52, "rating": 6, "conditionType": 2, "conditionParam1": 0, "conditionParam2": 0.35 },
+			{ "skillId": 119, "rating": 6, "conditionType": 2, "conditionParam1": 0, "conditionParam2": 0.5 }
 		],
 		"battlerHue": 0,
 		"battlerName": "Hi_monster",
@@ -119,8 +119,8 @@
 		],
 		"gold": 50,
 		"name": "Циклоп",
-		"note": "",
-		"params": [ 1000, 50, 40, 20, 40, 40, 40, 40 ]
+		"note": "Босс каменной пещеры\nОриентация на 4 ур",
+		"params": [ 1200, 50, 40, 20, 40, 40, 50, 40 ]
 	},
 	{
 		"id": 6,
