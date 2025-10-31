@@ -53,18 +53,30 @@
 	{
 		"id": 3,
 		"list": [
+			{ "code": 132, "indent": 0, "parameters": [ { "name": "Battle1", "volume": 90, "pitch": 100, "pan": 0 } ] },
 			{ "code": 0, "indent": 0, "parameters": [] }
 		],
-		"name": "",
+		"name": "BGM битвы. Базовое [Вне битвы]",
 		"switchId": 1,
 		"trigger": 0
 	},
 	{
 		"id": 4,
 		"list": [
+			{ "code": 132, "indent": 0, "parameters": [ { "name": "Battle6", "volume": 90, "pitch": 100, "pan": 0 } ] },
 			{ "code": 0, "indent": 0, "parameters": [] }
 		],
-		"name": "",
+		"name": "BGM битвы. Босс [Вне битвы]",
+		"switchId": 1,
+		"trigger": 0
+	},
+	{
+		"id": 5,
+		"list": [
+			{ "code": 241, "indent": 0, "parameters": [ { "name": "Battle6", "volume": 90, "pitch": 100, "pan": 0 } ] },
+			{ "code": 0, "indent": 0, "parameters": [] }
+		],
+		"name": "BGM. Босс [В битве]",
 		"switchId": 1,
 		"trigger": 0
 	}

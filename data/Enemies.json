@@ -106,9 +106,9 @@
 		"battlerHue": 0,
 		"battlerName": "Hi_monster",
 		"dropItems": [
-			{ "dataId": 1, "denominator": 1, "kind": 0 },
-			{ "dataId": 1, "denominator": 1, "kind": 0 },
-			{ "dataId": 1, "denominator": 1, "kind": 0 }
+			{ "kind": 2, "dataId": 2, "denominator": 1 },
+			{ "kind": 2, "dataId": 8, "denominator": 1 },
+			{ "kind": 1, "dataId": 15, "denominator": 1 }
 		],
 		"exp": 100,
 		"traits": [
@@ -119,7 +119,7 @@
 		],
 		"gold": 50,
 		"name": "Циклоп",
-		"note": "Босс каменной пещеры\nОриентация на 4 ур",
+		"note": "Босс каменной пещеры. Вторая фаза\nОриентация на 4 ур",
 		"params": [ 1200, 50, 40, 20, 40, 40, 50, 40 ]
 	},
 	{
@@ -171,25 +171,28 @@
 	{
 		"id": 8,
 		"actions": [
-			{ "conditionParam1": 0, "conditionParam2": 0, "conditionType": 0, "rating": 5, "skillId": 1 }
+			{ "skillId": 14, "rating": 5, "conditionType": 0, "conditionParam1": 0, "conditionParam2": 0 },
+			{ "skillId": 52, "rating": 6, "conditionType": 2, "conditionParam1": 0, "conditionParam2": 0.35 },
+			{ "skillId": 119, "rating": 6, "conditionType": 2, "conditionParam1": 0, "conditionParam2": 0.5 }
 		],
-		"battlerHue": 0,
-		"battlerName": "",
+		"battlerHue": 276,
+		"battlerName": "Goblin",
 		"dropItems": [
-			{ "dataId": 1, "denominator": 1, "kind": 0 },
+			{ "kind": 1, "dataId": 35, "denominator": 1 },
 			{ "dataId": 1, "denominator": 1, "kind": 0 },
 			{ "dataId": 1, "denominator": 1, "kind": 0 }
 		],
-		"exp": 0,
+		"exp": 100,
 		"traits": [
 			{ "code": 22, "dataId": 0, "value": 0.95 },
 			{ "code": 22, "dataId": 1, "value": 0.05 },
-			{ "code": 31, "dataId": 1, "value": 0 }
+			{ "code": 31, "dataId": 1, "value": 0 },
+			{ "code": 63, "dataId": 2, "value": 1 }
 		],
-		"gold": 0,
-		"name": "",
-		"note": "",
-		"params": [ 100, 0, 10, 10, 10, 10, 10, 10 ]
+		"gold": 50,
+		"name": "Циклоп?",
+		"note": "Босс каменной пещеры. Первая фаза\nОриентация на 4 ур",
+		"params": [ 500, 20, 20, 20, 20, 20, 50, 40 ]
 	},
 	{
 		"id": 9,
