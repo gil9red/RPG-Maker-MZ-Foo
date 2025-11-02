@@ -67,8 +67,8 @@
 		null,
 		{
 			"id": 1,
-			"name": "Перемещение (Обычный город)",
-			"note": "",
+			"name": "Перемещение (Обычный город, северный вход)",
+			"note": "<Hitbox Right: 1>",
 			"pages": [
 				{
 					"conditions": {
@@ -90,7 +90,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 1, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 2, 0, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -116,59 +116,10 @@
 			"meta": {}
 		},
 		null,
-		{
-			"id": 3,
-			"name": "Перемещение (Обычный город)",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-					"list": [
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 1, 0, 0 ] },
-						{ "code": 0, "indent": 0, "parameters": [] }
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{ "code": 0, "parameters": [] }
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 1,
-					"walkAnime": true
-				}
-			],
-			"x": 11,
-			"y": 6,
-			"meta": {}
-		},
+		null,
 		{
 			"id": 4,
-			"name": "Перемещение (Обычный город)",
+			"name": "Перемещение (Обычный город, восточный вход)",
 			"note": "",
 			"pages": [
 				{
@@ -191,7 +142,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 1, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 33, 19, 0, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -218,7 +169,7 @@
 		},
 		{
 			"id": 5,
-			"name": "Перемещение (Обычный город)",
+			"name": "Перемещение (Обычный город, западный вход)",
 			"note": "",
 			"pages": [
 				{
@@ -241,7 +192,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 1, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 1, 19, 0, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -269,7 +220,7 @@
 		{
 			"id": 6,
 			"name": "Перемещение (Большой город)",
-			"note": "",
+			"note": "<Hitbox Right: 1>",
 			"pages": [
 				{
 					"conditions": {
@@ -316,56 +267,7 @@
 			"y": 1,
 			"meta": {}
 		},
-		{
-			"id": 7,
-			"name": "Перемещение (Большой город)",
-			"note": "",
-			"pages": [
-				{
-					"conditions": {
-						"actorId": 1,
-						"actorValid": false,
-						"itemId": 1,
-						"itemValid": false,
-						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
-						"switch1Id": 1,
-						"switch1Valid": false,
-						"switch2Id": 1,
-						"switch2Valid": false,
-						"variableId": 1,
-						"variableValid": false,
-						"variableValue": 0
-					},
-					"directionFix": false,
-					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
-					"list": [
-						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 7, 7, 12, 2, 0 ] },
-						{ "code": 0, "indent": 0, "parameters": [] }
-					],
-					"moveFrequency": 3,
-					"moveRoute": {
-						"list": [
-							{ "code": 0, "parameters": [] }
-						],
-						"repeat": true,
-						"skippable": false,
-						"wait": false
-					},
-					"moveSpeed": 3,
-					"moveType": 0,
-					"priorityType": 0,
-					"stepAnime": false,
-					"through": false,
-					"trigger": 1,
-					"walkAnime": true
-				}
-			],
-			"x": 4,
-			"y": 1,
-			"meta": {}
-		},
+		null,
 		{
 			"id": 8,
 			"name": "Перемещение (Мир 1)",

@@ -1001,8 +1001,8 @@
 		},
 		{
 			"id": 9,
-			"name": "Перемещение (Field Map)",
-			"note": "",
+			"name": "Западный вход. Перемещение (Field Map)",
+			"note": "<Hitbox Down: 2>",
 			"pages": [
 				{
 					"conditions": {
@@ -1024,7 +1024,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 1, 10, 5, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 1, 9, 7, 0, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -1038,20 +1038,20 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 2,
 					"stepAnime": false,
 					"through": false,
 					"trigger": 1,
 					"walkAnime": true
 				}
 			],
-			"x": 17,
-			"y": 0
+			"x": 0,
+			"y": 18
 		},
 		{
 			"id": 10,
-			"name": "Перемещение (Field Map)",
-			"note": "",
+			"name": "Восточный вход. Перемещение (Field Map)",
+			"note": "<Hitbox Down: 2>",
 			"pages": [
 				{
 					"conditions": {
@@ -1073,7 +1073,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 1, 10, 5, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 1, 12, 7, 0, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -1087,20 +1087,20 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 2,
 					"stepAnime": false,
 					"through": false,
 					"trigger": 1,
 					"walkAnime": true
 				}
 			],
-			"x": 18,
-			"y": 0
+			"x": 34,
+			"y": 18
 		},
 		{
 			"id": 11,
-			"name": "Перемещение (Field Map)",
-			"note": "",
+			"name": "Северный вход. Перемещение (Field Map)",
+			"note": "<Hitbox Right: 2>",
 			"pages": [
 				{
 					"conditions": {
@@ -1136,7 +1136,7 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 0,
+					"priorityType": 2,
 					"stepAnime": false,
 					"through": false,
 					"trigger": 1,
@@ -2333,6 +2333,7 @@
 			],
 			"x": 25,
 			"y": 18
-		}
+		},
+		null
 	]
 }
