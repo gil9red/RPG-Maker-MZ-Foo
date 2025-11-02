@@ -90,7 +90,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 2, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 17, 2, 2, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -142,7 +142,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 33, 19, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 33, 19, 4, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -192,7 +192,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Move1", "volume": 90, "pitch": 100, "pan": 0 } ] },
-						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 1, 19, 0, 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 2, 1, 19, 6, 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
