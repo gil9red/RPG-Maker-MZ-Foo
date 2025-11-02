@@ -24,7 +24,7 @@
 			{ "level": 20, "note": "", "skillId": 178 }
 		],
 		"name": "Мечник",
-		"note": "",
+		"note": "<Battle Commands>\nAttack\nSkills\nSkill: Penta Slash\nGuard\nItem\nParty\nEscape\n</Battle Commands>",
 		"params": [
 			[
 				1, 544, 618, 691, 764, 838, 911, 984,   1058, 1131, 1204, 1278, 1351, 1424, 1497, 1571,   1644, 1717, 1791, 1864, 1937, 2011, 2084, 2157,   2231, 2304, 2377, 2450, 2524, 2597, 2670, 2744,
