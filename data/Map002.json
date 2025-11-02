@@ -431,7 +431,7 @@
 		},
 		{
 			"id": 4,
-			"name": "Кот с сундуком",
+			"name": "TODO: Кот с сундуком (old+test)",
 			"note": "",
 			"pages": [
 				{
@@ -450,18 +450,21 @@
 						"variableValid": false,
 						"variableValue": 0
 					},
-					"directionFix": true,
-					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 1 },
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
 					"list": [
-						{ "code": 122, "indent": 0, "parameters": [ 2, 2, 1, 0, 1 ] },
+						{ "code": 250, "indent": 0, "parameters": [ { "name": "Cat", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Мяу!" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "(Иди за мной!)" ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
 					"moveRoute": {
 						"list": [
+							{ "code": 45, "parameters": [ "Balloon: Sleep" ], "indent": null },
+							{ "code": 15, "parameters": [ 90 ], "indent": null },
 							{ "code": 0, "parameters": [] }
 						],
 						"repeat": true,
@@ -469,12 +472,12 @@
 						"wait": false
 					},
 					"moveSpeed": 3,
-					"moveType": 0,
+					"moveType": 3,
 					"priorityType": 1,
-					"stepAnime": false,
+					"stepAnime": true,
 					"through": false,
 					"trigger": 0,
-					"walkAnime": false
+					"walkAnime": true
 				},
 				{
 					"conditions": {
@@ -483,17 +486,17 @@
 						"itemId": 1,
 						"itemValid": false,
 						"selfSwitchCh": "A",
-						"selfSwitchValid": false,
+						"selfSwitchValid": true,
 						"switch1Id": 1,
 						"switch1Valid": false,
 						"switch2Id": 1,
 						"switch2Valid": false,
 						"variableId": 2,
-						"variableValid": true,
+						"variableValid": false,
 						"variableValue": 1
 					},
 					"directionFix": false,
-					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 1 },
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
 					"list": [
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Мур!" ] },
@@ -540,7 +543,7 @@
 						"variableValue": 0
 					},
 					"directionFix": false,
-					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 1 },
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
 					"list": [
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Мурк!" ] },
@@ -566,10 +569,247 @@
 					"through": false,
 					"trigger": 0,
 					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": false,
+						"switch1Id": 4,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 109, "indent": 0, "parameters": [] },
+						{ "code": 205, "indent": 1, "parameters": [ 0, { "list": [ { "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": 0 }, { "code": 14, "parameters": [ 0, -1 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": 0 } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 14, "parameters": [ 0, -1 ], "indent": null } ] },
+						{ "code": 213, "indent": 1, "parameters": [ -1, 1, false ] },
+						{ "code": 213, "indent": 1, "parameters": [ 0, 3, false ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 109, "indent": 0, "parameters": [] },
+						{ "code": 205, "indent": 1, "parameters": [ 0, { "list": [ { "code": 3, "indent": null }, { "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": 0 }, { "code": 14, "parameters": [ 2, 0 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 3, "indent": null } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": 0 } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 14, "parameters": [ 2, 0 ], "indent": null } ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 205, "indent": 1, "parameters": [ 0, { "list": [ { "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": null } ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 355, "indent": 1, "parameters": [ "$gameMap.event(4).rotate(6);" ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 108, "indent": 0, "parameters": [ "Крутящийся волчком кот" ] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 357, "indent": 1, "parameters": [ "FesSpin", "spin", "Spin Movement", { "id": "-1", "ope": "true" } ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Character ID = -1" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Operation = true" ] },
+						{ "code": 205, "indent": 1, "parameters": [ 0, { "list": [ { "code": 18, "indent": null }, { "code": 14, "parameters": [ 3, 0 ], "indent": null }, { "code": 22, "indent": null }, { "code": 15, "parameters": [ 60 ], "indent": null }, { "code": 22, "indent": null }, { "code": 45, "parameters": [ "Jump Forward: 2" ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 18, "indent": null } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 14, "parameters": [ 3, 0 ], "indent": null } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 22, "indent": null } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 15, "parameters": [ 60 ], "indent": null } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 22, "indent": null } ] },
+						{ "code": 505, "indent": 1, "parameters": [ { "code": 45, "parameters": [ "Jump Forward: 2" ], "indent": null } ] },
+						{ "code": 357, "indent": 1, "parameters": [ "FesSpin", "alwaysSpin", "Always Spin", { "id": "0", "ope": "false" } ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Character ID = 0" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Operation = false" ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 357, "indent": 1, "parameters": [ "VisuMZ_1_BattleCore", "ActSeq_Movement_Spin", "MOVE: Spin/Rotate", { "Targets:arraystr": "[\"user\"]", "Angle:eval": "360", "Duration:eval": "12", "EasingType:str": "Linear", "RevertAngle:eval": "true", "WaitForSpin:eval": "true" } ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Targets = [\"user\"]" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Angle = 360" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Duration = 12" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Spin Easing = Linear" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Revert Angle on Finish = true" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Wait For Spin? = true" ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 357, "indent": 1, "parameters": [ "DK_Character_Rotation", "RotateCharacter", "RotateCharacter", { "angle": "360", "character": "-1", "duration": "12", "wait": "true" } ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Угол = 360" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Персонаж = -1" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Длительность = 12" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Ожидание = true" ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 108, "indent": 0, "parameters": [ "TODO: Бросок предмета" ] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 357, "indent": 1, "parameters": [ "VisuMZ_1_EventsMoveCore", "MsgPopupPlayer", "Event Popup: Player", { "MessageText:json": "\"+\\\\i[1]\"", "MsgDuration:eval": "60", "PopupExtra:struct": "{\"Fade\":\"\",\"fadeInDuration:eval\":\"8\",\"fadeOutDuration:eval\":\"8\",\"Offset\":\"\",\"startOffsetX:eval\":\"+0\",\"startOffsetY:eval\":\"($gameMap.tileHeight() / -2)\",\"endOffsetX:eval\":\"($gameMap.event(4).x - $gamePlayer.x) * $gameMap.tileWidth()\",\"endOffsetY:eval\":\"(($gameMap.event(4).y - $gamePlayer.y) * $gameMap.tileHeight()) + ($gameMap.tileHeight() / -2)\",\"Scale\":\"\",\"startScaleX:eval\":\"0.8\",\"startScaleY:eval\":\"0.8\",\"endScaleX:eval\":\"0.8\",\"endScaleY:eval\":\"0.8\",\"Angle\":\"\",\"startAngle:eval\":\"+0\",\"endAngle:eval\":\"+0\",\"Misc\":\"\",\"Arc:eval\":\"100\"}" } ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Message Text = \"+\\\\i[1]\"" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Message Duration = 60" ] },
+						{ "code": 657, "indent": 1, "parameters": [ "Popup Settings = {\"Fade\":\"\",\"fadeInDuration:eval\":\"8\",\"fade…" ] },
+						{ "code": 108, "indent": 1, "parameters": [ "TODO: Почему анимация не показывается у кота?" ] },
+						{ "code": 230, "indent": 1, "parameters": [ 60 ] },
+						{ "code": 212, "indent": 1, "parameters": [ 0, 40, true ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 109, "indent": 0, "parameters": [], "collapsed": true },
+						{ "code": 123, "indent": 1, "parameters": [ "B", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 5,
+					"moveRoute": {
+						"list": [
+							{ "code": 3, "indent": null },
+							{ "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": null },
+							{ "code": 14, "parameters": [ 2, 0 ], "indent": null },
+							{ "code": 27, "parameters": [ 4 ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 4,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "B",
+						"selfSwitchValid": false,
+						"switch1Id": 4,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 109, "indent": 0, "parameters": [] },
+						{ "code": 212, "indent": 1, "parameters": [ 23, 40, false ] },
+						{ "code": 213, "indent": 1, "parameters": [ -1, 1, false ] },
+						{ "code": 213, "indent": 1, "parameters": [ 0, 3, false ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 409, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 0, "parameters": [ "B", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "B",
+						"selfSwitchValid": true,
+						"switch1Id": 4,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
 				}
 			],
 			"x": 24,
-			"y": 18
+			"y": 13
 		},
 		{
 			"id": 5,
@@ -1691,7 +1931,7 @@
 		},
 		{
 			"id": 23,
-			"name": "Клад (Эликсир)",
+			"name": "Клад кота (Эликсир)",
 			"note": "",
 			"pages": [
 				{
@@ -1701,7 +1941,87 @@
 						"itemId": 1,
 						"itemValid": false,
 						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 4,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": true,
+					"image": { "characterIndex": 0, "characterName": "!Chest", "direction": 8, "pattern": 1, "tileId": 0 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": false
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
 						"selfSwitchValid": false,
+						"switch1Id": 4,
+						"switch1Valid": true,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
+					"list": [
+						{ "code": 212, "indent": 0, "parameters": [ 23, 40, false ] },
+						{ "code": 213, "indent": 0, "parameters": [ -1, 1, false ] },
+						{ "code": 213, "indent": 0, "parameters": [ 24, 3, false ] },
+						{ "code": 123, "indent": 0, "parameters": [ "B", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 0,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "B",
+						"selfSwitchValid": true,
 						"switch1Id": 4,
 						"switch1Valid": true,
 						"switch2Id": 1,
@@ -1742,6 +2062,60 @@
 					"through": false,
 					"trigger": 0,
 					"walkAnime": false
+				}
+			],
+			"x": 31,
+			"y": 11
+		},
+		{
+			"id": 24,
+			"name": "Кот с сундуком",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 250, "indent": 0, "parameters": [ { "name": "Cat", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Мяу!" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "(Иди за мной!)" ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Balloon: Sleep" ], "indent": null },
+							{ "code": 15, "parameters": [ 90 ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
 				},
 				{
 					"conditions": {
@@ -1751,7 +2125,144 @@
 						"itemValid": false,
 						"selfSwitchCh": "A",
 						"selfSwitchValid": true,
-						"switch1Id": 4,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 2,
+						"variableValid": false,
+						"variableValue": 1
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Мур!" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "(Почти пришли!)" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 5,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Move To: 30, 11" ], "indent": null },
+							{ "code": 45, "parameters": [ "Self Switch B: On" ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": false,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "B",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 2,
+						"variableValid": false,
+						"variableValue": 1
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "Мяу!" ] },
+						{ "code": 401, "indent": 0, "parameters": [ "(Оппа!)" ] },
+						{ "code": 123, "indent": 0, "parameters": [ "C", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 16, "indent": 0 },
+							{ "code": 45, "parameters": [ "Balloon: Music Note" ], "indent": null },
+							{ "code": 15, "parameters": [ 90 ], "indent": 0 },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "C",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 2,
+						"variableValid": false,
+						"variableValue": 1
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 5,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "this.rotate(360, 12)" ], "indent": null },
+							{ "code": 14, "parameters": [ 2, 0 ], "indent": null },
+							{ "code": 27, "parameters": [ 4 ], "indent": null },
+							{ "code": 15, "parameters": [ 30 ], "indent": 0 },
+							{ "code": 14, "parameters": [ 0, -4 ], "indent": null },
+							{ "code": 15, "parameters": [ 30 ], "indent": null },
+							{ "code": 14, "parameters": [ 2, 0 ], "indent": 0 },
+							{ "code": 44, "parameters": [ { "name": "Cat", "volume": 90, "pitch": 100, "pan": 0 } ], "indent": 0 },
+							{ "code": 15, "parameters": [ 30 ], "indent": 0 },
+							{ "code": 14, "parameters": [ 2, 0 ], "indent": null },
+							{ "code": 45, "parameters": [ "Self Switch D: On" ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": false,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
 						"switch1Valid": false,
 						"switch2Id": 1,
 						"switch2Valid": false,
@@ -1759,8 +2270,8 @@
 						"variableValid": false,
 						"variableValue": 0
 					},
-					"directionFix": true,
-					"image": { "characterIndex": 0, "characterName": "!Chest", "direction": 8, "pattern": 1, "tileId": 0 },
+					"directionFix": false,
+					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
@@ -1775,15 +2286,15 @@
 					},
 					"moveSpeed": 3,
 					"moveType": 0,
-					"priorityType": 1,
+					"priorityType": 0,
 					"stepAnime": false,
 					"through": false,
 					"trigger": 0,
-					"walkAnime": false
+					"walkAnime": true
 				}
 			],
-			"x": 26,
-			"y": 14
+			"x": 25,
+			"y": 18
 		}
 	]
 }

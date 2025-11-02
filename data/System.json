@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 3,
+	"editMapId": 2,
 	"elements": [
 		"",
 		"Физический",
@@ -161,9 +161,9 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 3,
-	"startX": 15,
-	"startY": 8,
+	"startMapId": 2,
+	"startX": 25,
+	"startY": 19,
 	"switches": [
 		"",
 		"",
@@ -314,7 +314,7 @@
 	"variables": [
 		"",
 		"Квест.Мухоморы.Количество",
-		"Счетчик кота с сундуком",
+		"",
 		"Квест.Мухоморы.Состояние",
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 16673605,
+	"versionId": 87127049,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
