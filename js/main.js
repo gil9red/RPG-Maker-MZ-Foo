@@ -148,14 +148,8 @@ class Main {
     onEffekseerLoad() {
         this.eraseLoadingSpinner();
 
+        // NOTE: Исправление черных вертикальных полос на локациях на вебе у мобильного телефона
         PIXI.settings.PRECISION_FRAGMENT = PIXI.PRECISION.HIGH;
-
-//        // Use the native window resolution as the default resolution
-//        // will support high-density displays when rendering
-//        PIXI.settings.RESOLUTION = window.devicePixelRatio;
-//
-//        // Disable interpolation when scaling, will make texture be pixelated
-//        PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
         SceneManager.run(Scene_Boot);
     }
