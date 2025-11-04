@@ -259,7 +259,9 @@
 					"turnValid": false
 				},
 				"list": [
-					{ "code": 250, "indent": 0, "parameters": [ { "name": "Growl", "volume": 100, "pitch": 100, "pan": 0 } ] },
+					{ "code": 225, "indent": 0, "parameters": [ 5, 5, 60, false ] },
+					{ "code": 250, "indent": 0, "parameters": [ { "name": "Monster4", "volume": 100, "pitch": 100, "pan": 0 } ] },
+					{ "code": 230, "indent": 0, "parameters": [ 120 ] },
 					{ "code": 241, "indent": 0, "parameters": [ { "name": "", "volume": 90, "pitch": 100, "pan": 0 } ] },
 					{ "code": 357, "indent": 0, "parameters": [ "VisuMZ_1_BattleCore", "ActSeq_Animation_BalloonAnimation", "ANIM: Balloon Animation", { "Targets:arraystr": "[\"alive actors\",\"enemy index 0\"]", "Balloon:str": "Exclamation", "WaitComplete:eval": "true" } ] },
 					{ "code": 657, "indent": 0, "parameters": [ "Targets = [\"alive actors\",\"enemy index 0\"]" ] },
@@ -363,6 +365,9 @@
 					{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "\\P[1]" ] },
 					{ "code": 401, "indent": 0, "parameters": [ "\\PartyFace[1]А вот этот, похоже, настоящий..." ] },
 					{ "code": 401, "indent": 0, "parameters": [ "Готовьтесь к бою!" ] },
+					{ "code": 225, "indent": 0, "parameters": [ 5, 5, 60, false ] },
+					{ "code": 250, "indent": 0, "parameters": [ { "name": "Monster4", "volume": 100, "pitch": 100, "pan": 0 } ] },
+					{ "code": 230, "indent": 0, "parameters": [ 120 ] },
 					{ "code": 117, "indent": 0, "parameters": [ 5 ] },
 					{ "code": 0, "indent": 0, "parameters": [] }
 				],
