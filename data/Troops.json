@@ -3,8 +3,8 @@
 	{
 		"id": 1,
 		"members": [
-			{ "enemyId": 1, "x": 157, "y": 444, "hidden": false },
-			{ "enemyId": 1, "x": 203, "y": 334, "hidden": false }
+			{ "enemyId": 1, "x": 206, "y": 381, "hidden": false },
+			{ "enemyId": 1, "x": 232, "y": 286, "hidden": false }
 		],
 		"name": "Гоблин*2",
 		"pages": [
