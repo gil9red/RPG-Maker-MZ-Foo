@@ -1,0 +1,262 @@
+{
+	"autoplayBgm": false,
+	"autoplayBgs": false,
+	"battleback1Name": "",
+	"battleback2Name": "",
+	"bgm": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+	"bgs": { "name": "", "pan": 0, "pitch": 100, "volume": 90 },
+	"disableDashing": false,
+	"displayName": "",
+	"encounterList": [],
+	"encounterStep": 30,
+	"height": 13,
+	"note": "",
+	"parallaxLoopX": false,
+	"parallaxLoopY": false,
+	"parallaxName": "",
+	"parallaxShow": true,
+	"parallaxSx": 0,
+	"parallaxSy": 0,
+	"scrollType": 0,
+	"specifyBattleback": false,
+	"tilesetId": 1,
+	"width": 17,
+	"data": [
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
+		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0
+	],
+	"events": [
+		null,
+		{
+			"id": 1,
+			"name": "EV001",
+			"note": "<Label: Маршрут, к игроку>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Actor1", "direction": 2, "pattern": 0, "characterIndex": 7 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 2,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 14,
+			"y": 2
+		},
+		{
+			"id": 2,
+			"name": "EV002",
+			"note": "<Label: Маршрут, заданное, шаг к игроку>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Actor1", "direction": 2, "pattern": 0, "characterIndex": 6 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 10, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 14,
+			"y": 10
+		},
+		{
+			"id": 3,
+			"name": "EV003",
+			"note": "<Label: Маршрут, заданное, шаг от игрока>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "SF_Monster", "direction": 2, "pattern": 0, "characterIndex": 2 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 11, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 6,
+			"y": 2
+		},
+		{
+			"id": 4,
+			"name": "EV004",
+			"note": "<Label: Маршрут, заданное, шаг к событию 1>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "SF_Monster", "direction": 2, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Move to Event: 1" ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 2,
+			"y": 10
+		}
+	]
+}
