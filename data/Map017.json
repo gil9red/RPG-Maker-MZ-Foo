@@ -29,13 +29,13 @@
 		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
 		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,
 		2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 2816, 2816, 2816,   2816, 2816, 2816, 2816, 2816, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 3184, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 3184, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 3184, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 3184, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 3184, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 3184, 0,   0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 3184,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   3184, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 3184, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 3184, 0, 0, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 3184, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 3184, 0, 0, 0,
+		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 3184, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
 		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
 		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
 		0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,   0, 0, 0, 0, 0, 0, 0, 0,
@@ -69,7 +69,7 @@
 		null,
 		{
 			"id": 1,
-			"name": "EV001",
+			"name": "Преследует игрока",
 			"note": "<Label: Маршрут, к игроку>",
 			"pages": [
 				{
@@ -111,12 +111,12 @@
 					"walkAnime": true
 				}
 			],
-			"x": 14,
-			"y": 2
+			"x": 0,
+			"y": 0
 		},
 		{
 			"id": 2,
-			"name": "EV002",
+			"name": "Преследует игрока (через шаг)",
 			"note": "<Label: Маршрут, заданное, шаг к игроку>",
 			"pages": [
 				{
@@ -159,12 +159,12 @@
 					"walkAnime": true
 				}
 			],
-			"x": 14,
-			"y": 10
+			"x": 0,
+			"y": 12
 		},
 		{
 			"id": 3,
-			"name": "EV003",
+			"name": "Бегает от игрока",
 			"note": "<Label: Маршрут, заданное, шаг от игрока>",
 			"pages": [
 				{
@@ -207,12 +207,12 @@
 					"walkAnime": true
 				}
 			],
-			"x": 6,
-			"y": 2
+			"x": 3,
+			"y": 4
 		},
 		{
 			"id": 4,
-			"name": "EV004",
+			"name": "Преследует событие 1",
 			"note": "<Label: Маршрут, заданное, шаг к событию 1>",
 			"pages": [
 				{
@@ -257,6 +257,374 @@
 			],
 			"x": 2,
 			"y": 10
+		},
+		{
+			"id": 5,
+			"name": "Шарик",
+			"note": "<Label: Шарик>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 0 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<Label: Шарик (стоит)>" ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
+						{ "code": 123, "indent": 0, "parameters": [ "C", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 0 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<Label: Шарик (преследует)>" ] },
+						{ "code": 124, "indent": 0, "parameters": [ 0, 5 ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 123, "indent": 0, "parameters": [ "B", 0 ] },
+						{ "code": 123, "indent": 0, "parameters": [ "C", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 10, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 2,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "B",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 0 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<Label: Шарик (убегает)>" ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
+						{ "code": 123, "indent": 0, "parameters": [ "B", 1 ] },
+						{ "code": 123, "indent": 0, "parameters": [ "C", 0 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 11, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "C",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 0 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<Label: Шарик (обратный отчет)>" ] },
+						{ "code": 111, "indent": 0, "parameters": [ 2, "A", 0 ], "collapsed": true },
+						{ "code": 111, "indent": 1, "parameters": [ 2, "D", 1 ] },
+						{ "code": 124, "indent": 2, "parameters": [ 0, 5 ] },
+						{ "code": 357, "indent": 2, "parameters": [ "CGMZ_ToastManager", "Create Paragraph Toast", "Create Paragraph Toast", { "Header Line": "Игра в салочки", "Header Dividers": "true", "Header Divider Color 1": "1", "Header Divider Color 2": "0", "Paragraph": "Шарик будет преследовать\nУ вас 5 секунд", "Paragraph Alignment": "center", "width": "360", "SE": "{\"File\":\"\",\"Volume\":\"90\",\"Pitch\":\"100\",\"Pan\":\"0\"}", "Display Time": "0", "backgroundStyle": "Window", "windowskinTone": "", "windowskin": "" } ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Line = Игра в салочки" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Dividers = true" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Divider Color 1 = 1" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Divider Color 2 = 0" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Paragraph = Шарик будет преследовать У вас 5 секунд" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Paragraph Alignment = center" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Width = 360" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Sound Effect = {\"File\":\"\",\"Volume\":\"90\",\"Pitch\":\"100\",\"Pan\"…" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Display Time = 0" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Background Style = Window" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Windowskin Tone = " ] },
+						{ "code": 657, "indent": 2, "parameters": [ "windowskin = " ] },
+						{ "code": 123, "indent": 2, "parameters": [ "D", 0 ] },
+						{ "code": 0, "indent": 2, "parameters": [] },
+						{ "code": 411, "indent": 1, "parameters": [] },
+						{ "code": 111, "indent": 2, "parameters": [ 3, 0, 1 ] },
+						{ "code": 123, "indent": 3, "parameters": [ "B", 1 ] },
+						{ "code": 123, "indent": 3, "parameters": [ "C", 1 ] },
+						{ "code": 123, "indent": 3, "parameters": [ "D", 1 ] },
+						{ "code": 124, "indent": 3, "parameters": [ 1 ] },
+						{ "code": 0, "indent": 3, "parameters": [] },
+						{ "code": 412, "indent": 2, "parameters": [] },
+						{ "code": 0, "indent": 2, "parameters": [] },
+						{ "code": 412, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 412, "indent": 0, "parameters": [] },
+						{ "code": 111, "indent": 0, "parameters": [ 2, "B", 0 ] },
+						{ "code": 111, "indent": 1, "parameters": [ 2, "D", 1 ] },
+						{ "code": 124, "indent": 2, "parameters": [ 0, 5 ] },
+						{ "code": 357, "indent": 2, "parameters": [ "CGMZ_ToastManager", "Create Paragraph Toast", "Create Paragraph Toast", { "Header Line": "Игра в салочки", "Header Dividers": "true", "Header Divider Color 1": "1", "Header Divider Color 2": "0", "Paragraph": "Теперь Шарик убегает\nЖдите 5 секунд", "Paragraph Alignment": "center", "width": "360", "SE": "{\"File\":\"\",\"Volume\":\"90\",\"Pitch\":\"100\",\"Pan\":\"0\"}", "Display Time": "0", "backgroundStyle": "Window", "windowskinTone": "", "windowskin": "" } ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Line = Игра в салочки" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Dividers = true" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Divider Color 1 = 1" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Header Divider Color 2 = 0" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Paragraph = Теперь Шарик убегает Ждите 5 секунд" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Paragraph Alignment = center" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Width = 360" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Sound Effect = {\"File\":\"\",\"Volume\":\"90\",\"Pitch\":\"100\",\"Pan\"…" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Display Time = 0" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Background Style = Window" ] },
+						{ "code": 657, "indent": 2, "parameters": [ "Windowskin Tone = " ] },
+						{ "code": 657, "indent": 2, "parameters": [ "windowskin = " ] },
+						{ "code": 123, "indent": 2, "parameters": [ "A", 1 ] },
+						{ "code": 123, "indent": 2, "parameters": [ "C", 1 ] },
+						{ "code": 123, "indent": 2, "parameters": [ "D", 1 ] },
+						{ "code": 0, "indent": 2, "parameters": [] },
+						{ "code": 412, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 412, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 10,
+			"y": 5
+		},
+		{
+			"id": 6,
+			"name": "Преследует игрока (телепортация)",
+			"note": "<Label: Маршрут, заданное, телепортация к игроку>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "SF_Monster", "direction": 2, "pattern": 0, "characterIndex": 3 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Teleport to Player" ], "indent": null },
+							{ "code": 15, "parameters": [ 120 ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "SF_Monster", "direction": 2, "pattern": 0, "characterIndex": 3 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<Label: Маршрут, заданное, телепортация к игроку (отключен)>" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Teleport to Player" ], "indent": null },
+							{ "code": 15, "parameters": [ 120 ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 3,
+			"y": 6
+		},
+		{
+			"id": 7,
+			"name": "Преследует игрока (прыжки)",
+			"note": "<Label: Маршрут, заданное, прыжок к игроку>",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 0, "characterIndex": 3 },
+					"list": [
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Jump to Player" ], "indent": null },
+							{ "code": 15, "parameters": [ 120 ], "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 0,
+					"walkAnime": true
+				}
+			],
+			"x": 0,
+			"y": 3
 		}
 	]
 }
