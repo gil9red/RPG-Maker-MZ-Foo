@@ -1,9 +1,9 @@
 {
-	"autoplayBgm": false,
+	"autoplayBgm": true,
 	"autoplayBgs": true,
 	"battleback1Name": "RockCave",
 	"battleback2Name": "RockCave",
-	"bgm": { "name": "", "pan": 0, "pitch": 100, "volume": 35 },
+	"bgm": { "name": "Dungeon2", "pan": 0, "pitch": 100, "volume": 35 },
 	"bgs": { "name": "Drips", "pan": 0, "pitch": 100, "volume": 60 },
 	"disableDashing": false,
 	"displayName": "Каменная пещера",
@@ -1986,6 +1986,9 @@
 					"directionFix": false,
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
+						{ "code": 221, "indent": 0, "parameters": [] },
+						{ "code": 211, "indent": 0, "parameters": [ 0 ] },
+						{ "code": 201, "indent": 0, "parameters": [ 0, 16, 8, 6, 0, 2 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -2002,7 +2005,7 @@
 					"priorityType": 0,
 					"stepAnime": false,
 					"through": false,
-					"trigger": 0,
+					"trigger": 3,
 					"walkAnime": true
 				}
 			],
