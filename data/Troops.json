@@ -370,6 +370,9 @@
 					{ "code": 225, "indent": 0, "parameters": [ 5, 5, 60, false ] },
 					{ "code": 250, "indent": 0, "parameters": [ { "name": "Monster4", "volume": 100, "pitch": 100, "pan": 0 } ] },
 					{ "code": 230, "indent": 0, "parameters": [ 120 ] },
+					{ "code": 357, "indent": 0, "parameters": [ "VisuMZ_1_BattleCore", "ActSeq_Movement_HomeReset", "MOVE: Home Reset", { "Targets:arraystr": "[\"enemy index 1\"]", "WaitForMovement:eval": "true" } ] },
+					{ "code": 657, "indent": 0, "parameters": [ "Targets = [\"enemy index 1\"]" ] },
+					{ "code": 657, "indent": 0, "parameters": [ "Wait For Movement? = true" ] },
 					{ "code": 117, "indent": 0, "parameters": [ 5 ] },
 					{ "code": 0, "indent": 0, "parameters": [] }
 				],
