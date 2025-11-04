@@ -162,8 +162,8 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
 	"startMapId": 2,
-	"startX": 23,
-	"startY": 18,
+	"startX": 17,
+	"startY": 2,
 	"switches": [
 		"",
 		"",
@@ -302,7 +302,7 @@
 		{ "actorId": 6, "level": 4, "equips": [ 7, 0, 65, 21, 0 ] },
 		{ "actorId": 7, "level": 4, "equips": [ 7, 0, 0, 20, 0 ] }
 	],
-	"testTroopId": 1,
+	"testTroopId": 5,
 	"title1Name": "Ruins",
 	"title2Name": "",
 	"titleBgm": { "name": "Theme4", "pan": 0, "pitch": 100, "volume": 90 },
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 20002695,
+	"versionId": 19467969,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
