@@ -1962,6 +1962,7 @@
 					"image": { "characterIndex": 0, "characterName": "", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
 						{ "code": 212, "indent": 0, "parameters": [ 23, 40, false ] },
+						{ "code": 212, "indent": 0, "parameters": [ 23, 40, false ] },
 						{ "code": 230, "indent": 0, "parameters": [ 12 ] },
 						{ "code": 213, "indent": 0, "parameters": [ -1, 1, false ] },
 						{ "code": 213, "indent": 0, "parameters": [ 24, 3, false ] },
