@@ -11,7 +11,7 @@
  * Become a Patron to get access to beta/alpha plugins plus other goodies!
  * https://www.patreon.com/CasperGamingRPGM
  * ============================================================================
- * Version: 1.31.0
+ * Version: 1.32.0
  * ----------------------------------------------------------------------------
  * Compatibility: Only tested with my CGMZ plugins.
  * Made for RPG Maker MZ 1.9.0
@@ -46,18 +46,17 @@
  * behaving incorrectly and your game will probably crash. Please do not
  * rename the js file.
  * --------------------------Latest Version------------------------------------
- * Hi all, this latest version adds gamepad connect and disconnect listeners,
- * which will help some plugins detect the gamepad status and when it changes.
+ * Hi all, this latest version adds a more exact clickable sprite object type,
+ * which also takes pixel alpha into account as well. This will be used as an
+ * option for clickable sprites that may have transparent space around them.
  *
- * This version also keeps track of the background type set for a window, in
- * case it is needed later. It keeps track of the previous map id the player
- * was on as well, since some plugins can benefit from knowing the previous
- * map id.
+ * This update also adds some blank functions important for other [CGMZ]
+ * plugins in an effort to reduce load order importance for other [CGMZ]
+ * plugins.
  *
- * Version 1.31.0
- * - Added gamepad listeners
- * - Added window background type tracking
- * - Added previous map id tracking
+ * Version 1.32.0
+ * - Added more exact clickable sprite option
+ * - Added empty functions to reduce order importance for [CGMZ] plugins
  *
  * @command Initialize
  * @desc Re-initializes some CGMZ Classes. Only call this if you know what you
@@ -153,7 +152,7 @@
  * alfa, ademas de otras cosas geniales!
  * https://www.patreon.com/CasperGamingRPGM
  * ============================================================================
- * Versión: 1.31.0
+ * Versión: 1.32.0
  * ----------------------------------------------------------------------------
  * Compatibilidad: Sólo probado con mis CGMZ plugins.
  * Hecho para RPG Maker MZ 1.9.0
@@ -184,18 +183,17 @@
  * behaving incorrectly and your game will probably crash. Please do not
  * rename the js file.
  * --------------------------Latest Version------------------------------------
- * Hi all, this latest version adds gamepad connect and disconnect listeners,
- * which will help some plugins detect the gamepad status and when it changes.
+ * Hi all, this latest version adds a more exact clickable sprite object type,
+ * which also takes pixel alpha into account as well. This will be used as an
+ * option for clickable sprites that may have transparent space around them.
  *
- * This version also keeps track of the background type set for a window, in
- * case it is needed later. It keeps track of the previous map id the player
- * was on as well, since some plugins can benefit from knowing the previous
- * map id.
+ * This update also adds some blank functions important for other [CGMZ]
+ * plugins in an effort to reduce load order importance for other [CGMZ]
+ * plugins.
  *
- * Version 1.31.0
- * - Added gamepad listeners
- * - Added window background type tracking
- * - Added previous map id tracking
+ * Version 1.32.0
+ * - Added more exact clickable sprite option
+ * - Added empty functions to reduce order importance for [CGMZ] plugins
  *
  * @command Initialize
  * @text Inicializar 
@@ -286,7 +284,7 @@ var Imported = Imported || {};
 Imported.CGMZ_Core = true;
 var CGMZ = {};
 CGMZ.Versions = {};
-CGMZ.Versions["CGMZ Core"] = "1.31.0";
+CGMZ.Versions["CGMZ Core"] = "1.32.0";
 CGMZ.Core = {};
 CGMZ.Core.parameters = PluginManager.parameters('CGMZ_Core');
 CGMZ.Core.CheckForUpdates = (CGMZ.Core.parameters["Check for Updates"] === "true");
@@ -1335,6 +1333,12 @@ Game_Map.prototype.CGMZ_getMapName = function() {
 		name = $dataMap.meta.cgmzname;
 	}
 	return name;
+};
+//-----------------------------------------------------------------------------
+// Add base function to prevent order requirements with plugins using this
+//-----------------------------------------------------------------------------
+Game_Map.prototype.CGMZ_animatedBattleBackId = function() {
+	return null;
 };
 //=============================================================================
 // Game_Player
@@ -4250,6 +4254,37 @@ CGMZ_Sprite_WindowAnimatedBattleSprite.prototype.updateBitmap = function() {
 //-----------------------------------------------------------------------------
 CGMZ_Sprite_WindowAnimatedBattleSprite.prototype.pattern = function() {
 	return this._pattern < 3 ? this._pattern : 1;
+};
+//=============================================================================
+// Sprite_Clickable
+//-----------------------------------------------------------------------------
+// Add property to get pixel alpha value if set to exact
+//=============================================================================
+//-----------------------------------------------------------------------------
+// Also initialize exact property
+//-----------------------------------------------------------------------------
+const alias_CGMZCore_SpriteClickable_initialize = Sprite_Clickable.prototype.initialize;
+Sprite_Clickable.prototype.initialize = function() {
+    alias_CGMZCore_SpriteClickable_initialize.call(this);
+    this._cgmz_exact = false;
+};
+//-----------------------------------------------------------------------------
+// Check pixel alpha as well during hit test if exact
+//-----------------------------------------------------------------------------
+const alias_CGMZCore_SpriteClickable_hitTest = Sprite_Clickable.prototype.hitTest;
+Sprite_Clickable.prototype.hitTest = function(x, y) {
+	const oldReturn = alias_CGMZCore_SpriteClickable_hitTest.call(this, x, y);
+	if(!this._cgmz_exact || !oldReturn || !this.bitmap) {
+		return oldReturn;
+	}
+	const pixelAlpha = this.bitmap.getAlphaPixel(x, y);
+    return !!pixelAlpha;
+};
+//-----------------------------------------------------------------------------
+// Set the exact property
+//-----------------------------------------------------------------------------
+Sprite_Clickable.prototype.CGMZ_setExact = function(exact) {
+    this._cgmz_exact = exact;
 };
 //=============================================================================
 // CGMZ_Video
