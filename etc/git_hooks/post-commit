@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Get the absolute path to the repository root
+REPO_ROOT=$(git rev-parse --show-toplevel)
+
+# Change to the root directory to run commands if necessary
+cd "$REPO_ROOT" || exit 1
+
+# Now you can run your commands from the project root
+echo "Running post-commit hook in: $PWD"
+
+# SOURCE: https://github.com/gil9red/SimplePyScripts/blob/13ede4ad250ec8fe48966e9fb93917a8a6f75b15/for_games/RMMZ_update_fields_CGMZ_GameInfo.py
+PATH_SCRIPT=C:/Users/ipetrash/PycharmProjects/SimplePyScripts/for_games/RMMZ_update_fields_CGMZ_GameInfo.py
+
+python $PATH_SCRIPT $PWD
