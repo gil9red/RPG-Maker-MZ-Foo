@@ -1,10 +1,10 @@
 {
 	"advanced": {
 		"gameId": 22639199,
-		"screenWidth": 816,
-		"screenHeight": 624,
-		"uiAreaWidth": 816,
-		"uiAreaHeight": 624,
+		"screenWidth": 1280,
+		"screenHeight": 720,
+		"uiAreaWidth": 1280,
+		"uiAreaHeight": 720,
 		"numberFontFilename": "Comic Sans MS.ttf",
 		"fallbackFonts": "Comic Sans MS, Verdana, sans-serif",
 		"fontSize": 26,
@@ -65,7 +65,7 @@
 		"pitch": 100,
 		"volume": 90
 	},
-	"editMapId": 18,
+	"editMapId": 2,
 	"elements": [
 		"",
 		"Физический",
@@ -161,9 +161,9 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 14,
-	"startX": 4,
-	"startY": 5,
+	"startMapId": 2,
+	"startX": 23,
+	"startY": 18,
 	"switches": [
 		"",
 		"",
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 42891786,
+	"versionId": 47186446,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
