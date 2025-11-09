@@ -86,7 +86,7 @@
 		"Тело",
 		"Аксессуар"
 	],
-	"gameTitle": "Project1-Foo",
+	"gameTitle": "Project-Foo",
 	"gameoverMe": { "name": "Gameover1", "pan": 0, "pitch": 100, "volume": 90 },
 	"itemCategories": [
 		true,
@@ -303,7 +303,7 @@
 		{ "actorId": 7, "level": 4, "equips": [ 7, 0, 0, 20, 0 ] }
 	],
 	"testTroopId": 5,
-	"title1Name": "Ruins",
+	"title1Name": "Town1",
 	"title2Name": "",
 	"titleBgm": { "name": "Theme4", "pan": 0, "pitch": 100, "volume": 90 },
 	"titleCommandWindow": {
@@ -334,7 +334,7 @@
 		"",
 		""
 	],
-	"versionId": 72127917,
+	"versionId": 52709101,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
