@@ -2302,6 +2302,8 @@
 						{ "code": 357, "indent": 0, "parameters": [ "FesSpin", "alwaysSpin", "Always Spin", { "id": "0", "ope": "false" } ] },
 						{ "code": 657, "indent": 0, "parameters": [ "Character ID = 0" ] },
 						{ "code": 657, "indent": 0, "parameters": [ "Operation = false" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 25, "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 25, "indent": null } ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "Крутящаяся девочка" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Но меня быстро укачивает..." ] },
 						{ "code": 213, "indent": 0, "parameters": [ 0, 6, false ] },
