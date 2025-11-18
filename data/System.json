@@ -49,7 +49,7 @@
 	"battleback2Name": "Ship",
 	"battlerHue": 0,
 	"battlerName": "Hi_monster",
-	"battleSystem": 0,
+	"battleSystem": 1,
 	"boat": {
 		"bgm": { "name": "Ship1", "pan": 0, "pitch": 100, "volume": 90 },
 		"characterIndex": 0,
