@@ -178,7 +178,7 @@
 		"battlerHue": 276,
 		"battlerName": "Goblin",
 		"dropItems": [
-			{ "kind": 1, "dataId": 35, "denominator": 1 },
+			{ "kind": 1, "dataId": 8, "denominator": 1 },
 			{ "dataId": 1, "denominator": 1, "kind": 0 },
 			{ "dataId": 1, "denominator": 1, "kind": 0 }
 		],
