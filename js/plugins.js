@@ -21,5 +21,7 @@ var $plugins =
 {"name":"FesSpin","status":true,"description":"Reproduces the spin movement of RPG Maker Fes.","parameters":{"tryHalfSpin":"true"}},
 {"name":"KC_MoveRouteTF","status":true,"description":"[v1.0.2]Rotate, translate, and scale characters during move routes.","parameters":{"enableRot":"true","enableTrans":"true","enableScale":"true"}},
 {"name":"--------------------------","status":false,"description":"---------------------------------------------------------------------","parameters":{}},
-{"name":"Cyclone-Map-Editor","status":false,"description":"Live Map Editor - v1.12.01\n\n<pluginName:CycloneMapEditor>","parameters":{"regionIcons":"","Status Bar":"","showMapId":"true","showTilesetId":"true","showPosition":"true","showCellTiles":"true","showRegionId":"true","showTag":"true","showCollision":"true","showLadder":"true","showBush":"true","showCounter":"true","showDamageFloor":"true","collisionStepCount":"1"}}
+{"name":"Cyclone-Map-Editor","status":false,"description":"Live Map Editor - v1.12.01\n\n<pluginName:CycloneMapEditor>","parameters":{"regionIcons":"","Status Bar":"","showMapId":"true","showTilesetId":"true","showPosition":"true","showCellTiles":"true","showRegionId":"true","showTag":"true","showCollision":"true","showLadder":"true","showBush":"true","showCounter":"true","showDamageFloor":"true","collisionStepCount":"1"}},
+{"name":"--------------------------","status":false,"description":"---------------------------------------------------------------------","parameters":{}},
+{"name":"GALV_ActionIndicatorsMZ","status":true,"description":"(v.1.0) Display an icon when the player is able to interact with an event. View help for comment tag.","parameters":{"yOffset":"-10","zPosition":"5","autoHide":"true","iconOpacity":"200"}}
 ];

@@ -294,6 +294,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
@@ -442,6 +443,7 @@
 					"directionFix": true,
 					"image": { "tileId": 0, "characterName": "!Flame", "direction": 2, "pattern": 0, "characterIndex": 2 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Горит!" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
@@ -491,6 +493,7 @@
 					"directionFix": true,
 					"image": { "characterIndex": 7, "characterName": "!Chest", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 210>" ] },
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Chest2", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 205, "indent": 0, "parameters": [ 0, { "repeat": false, "skippable": false, "wait": true, "list": [ { "code": 36 }, { "code": 17 }, { "code": 15, "parameters": [ 3 ] }, { "code": 18 }, { "code": 15, "parameters": [ 3 ] }, { "code": 0 } ] } ] },
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 36 } ] },
@@ -586,6 +589,7 @@
 					"directionFix": true,
 					"image": { "tileId": 0, "characterName": "!Flame", "direction": 2, "pattern": 0, "characterIndex": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "!!!" ] },
 						{ "code": 301, "indent": 0, "parameters": [ 0, 1, true, true ] },
@@ -649,6 +653,7 @@
 					"directionFix": true,
 					"image": { "tileId": 0, "characterName": "!Chest", "direction": 2, "pattern": 0, "characterIndex": 6 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 210>" ] },
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Chest2", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 205, "indent": 0, "parameters": [ 0, { "repeat": false, "skippable": false, "wait": true, "list": [ { "code": 36 }, { "code": 17 }, { "code": 15, "parameters": [ 3 ] }, { "code": 18 }, { "code": 15, "parameters": [ 3 ] }, { "code": 0 } ] } ] },
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 36 } ] },
@@ -758,6 +763,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 111, "indent": 0, "parameters": [ 2, "B", 1 ] },
 						{ "code": 101, "indent": 1, "parameters": [ "", 0, 1, 2, "" ] },
@@ -852,6 +858,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
@@ -938,6 +945,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
@@ -1024,6 +1032,7 @@
 					"directionFix": true,
 					"image": { "tileId": 235, "characterName": "", "characterIndex": 0, "direction": 2, "pattern": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 117, "indent": 0, "parameters": [ 1 ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
@@ -1160,6 +1169,7 @@
 					"directionFix": false,
 					"image": { "characterIndex": 5, "characterName": "People1", "direction": 2, "pattern": 1, "tileId": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "\\$Сдаю палатку" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Цена 10 \\G на одну ночь. Хотите остановиться?" ] },
@@ -1230,6 +1240,7 @@
 					"directionFix": true,
 					"image": { "characterIndex": 0, "characterName": "!Switch1", "direction": 2, "pattern": 0, "tileId": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 142>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Вызвать кракена?" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Пути назад не будет" ] },
@@ -1335,6 +1346,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Evil", "direction": 2, "pattern": 0, "characterIndex": 7 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 111, "indent": 0, "parameters": [ 12, "$getQuestStatus(\"Охота\") === \"completed\"" ] },
 						{ "code": 101, "indent": 1, "parameters": [ "Evil", 7, 0, 2, "" ] },
 						{ "code": 401, "indent": 1, "parameters": [ "Эта охота завершена" ] },
@@ -1468,6 +1480,7 @@
 					"directionFix": true,
 					"image": { "characterIndex": 5, "characterName": "!Chest", "direction": 2, "pattern": 1, "tileId": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 210>" ] },
 						{ "code": 111, "indent": 0, "parameters": [ 12, "$getQuestStatus(\"Сбор мухоморов\") === \"completed\"" ] },
 						{ "code": 250, "indent": 1, "parameters": [ { "name": "Chest1", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 205, "indent": 1, "parameters": [ 0, { "repeat": false, "skippable": false, "wait": true, "list": [ { "code": 36 }, { "code": 17 }, { "code": 15, "parameters": [ 3 ] }, { "code": 18 }, { "code": 15, "parameters": [ 3 ] }, { "code": 0 } ] } ] },
@@ -1588,6 +1601,7 @@
 					"directionFix": true,
 					"image": { "tileId": 0, "characterName": "Evil", "direction": 2, "pattern": 0, "characterIndex": 2 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 111, "indent": 0, "parameters": [ 12, "$getQuestStatus(\"Сбор мухоморов\") === \"completed\"" ] },
 						{ "code": 101, "indent": 1, "parameters": [ "Evil", 2, 0, 2, "Ведьма" ] },
 						{ "code": 401, "indent": 1, "parameters": [ "Идите дальше, я занята" ] },
