@@ -1425,8 +1425,6 @@
 						{ "code": 505, "indent": 1, "parameters": [ { "code": 15, "parameters": [ 3 ] } ] },
 						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
 						{ "code": 126, "indent": 1, "parameters": [ 9, 0, 0, 1 ] },
-						{ "code": 101, "indent": 1, "parameters": [ "", 0, 0, 2 ] },
-						{ "code": 401, "indent": 1, "parameters": [ "Ультразелье было найдено!" ] },
 						{ "code": 115, "indent": 1, "parameters": [] },
 						{ "code": 0, "indent": 1, "parameters": [] },
 						{ "code": 412, "indent": 0, "parameters": [] },

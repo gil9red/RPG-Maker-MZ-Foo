@@ -1603,8 +1603,6 @@
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 3 ] } ] },
 						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
 						{ "code": 125, "indent": 0, "parameters": [ 0, 0, 1000 ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2 ] },
-						{ "code": 401, "indent": 0, "parameters": [ "1000 \\G было найдено!" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
@@ -1693,8 +1691,6 @@
 						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Coin", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 125, "indent": 0, "parameters": [ 0, 0, 1000 ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Найдено 1000 \\G" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 4,
@@ -2033,8 +2029,6 @@
 						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 3 ] } ] },
 						{ "code": 123, "indent": 0, "parameters": [ "A", 0 ] },
 						{ "code": 126, "indent": 0, "parameters": [ 15, 0, 0, 1 ] },
-						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2 ] },
-						{ "code": 401, "indent": 0, "parameters": [ "Эликсир было найдено!" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,
