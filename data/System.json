@@ -10,7 +10,8 @@
 		"fontSize": 26,
 		"mainFontFilename": "Comic Sans MS.ttf",
 		"screenScale": 1,
-		"windowOpacity": 192
+		"windowOpacity": 192,
+		"picturesUpperLimit": 100
 	},
 	"airship": {
 		"bgm": { "name": "Ship3", "pan": 0, "pitch": 100, "volume": 90 },
@@ -334,7 +335,7 @@
 		"",
 		""
 	],
-	"versionId": 24969163,
+	"versionId": 18912026,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",
@@ -353,5 +354,13 @@
 	],
 	"windowTone": [ 0, 0, 0, 0 ],
 	"optSplashScreen": false,
-	"tileSize": 48
+	"tileSize": 48,
+	"editor": {
+		"messageWidth1": 60,
+		"messageWidth2": 47,
+		"jsonFormatLevel": 1
+	},
+	"faceSize": 144,
+	"iconSize": 32,
+	"optMessageSkip": true
 }
