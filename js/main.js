@@ -147,6 +147,10 @@ class Main {
 
     onEffekseerLoad() {
         this.eraseLoadingSpinner();
+
+        // NOTE: Исправление черных вертикальных полос на локациях на вебе у мобильного телефона
+        PIXI.settings.PRECISION_FRAGMENT = PIXI.PRECISION.HIGH;
+
         SceneManager.run(Scene_Boot);
     }
 
