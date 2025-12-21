@@ -376,7 +376,7 @@
 					"moveSpeed": 3,
 					"moveType": 0,
 					"priorityType": 1,
-					"stepAnime": false,
+					"stepAnime": true,
 					"through": false,
 					"trigger": 0,
 					"walkAnime": true,
@@ -425,7 +425,7 @@
 					"moveSpeed": 3,
 					"moveType": 0,
 					"priorityType": 1,
-					"stepAnime": false,
+					"stepAnime": true,
 					"through": false,
 					"trigger": 0,
 					"walkAnime": true
@@ -472,7 +472,7 @@
 					"moveSpeed": 3,
 					"moveType": 0,
 					"priorityType": 1,
-					"stepAnime": false,
+					"stepAnime": true,
 					"through": false,
 					"trigger": 0,
 					"walkAnime": true
