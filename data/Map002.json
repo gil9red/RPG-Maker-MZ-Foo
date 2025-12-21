@@ -1132,6 +1132,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Actor2", "direction": 2, "pattern": 1, "characterIndex": 3 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "Житель" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Привет, \\N[1]!" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "Житель" ] },
@@ -1191,6 +1192,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Actor2", "direction": 6, "pattern": 1, "characterIndex": 7 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Патрулирую..." ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
@@ -1256,6 +1258,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People1", "direction": 6, "pattern": 1, "characterIndex": 5 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 111, "indent": 0, "parameters": [ 2, "A", 0 ] },
 						{ "code": 101, "indent": 1, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 1, "parameters": [ "Сейчас я делаю 4 шага влево" ] },
@@ -1341,6 +1344,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People1", "direction": 6, "pattern": 1, "characterIndex": 4 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Я двигаюсь вместе с той леди" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
@@ -1390,6 +1394,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Actor3", "direction": 2, "pattern": 1, "characterIndex": 5 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "Женщина-зельевар" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Я дам тебе зелье \\I[176]" ] },
 						{ "code": 126, "indent": 0, "parameters": [ 7, 0, 0, 1 ] },
@@ -1482,6 +1487,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Actor3", "direction": 2, "pattern": 1, "characterIndex": 4 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 111, "indent": 0, "parameters": [ 8, 7 ] },
 						{ "code": 101, "indent": 1, "parameters": [ "", 0, 0, 2, "Судья по зельям" ] },
 						{ "code": 401, "indent": 1, "parameters": [ "Используй зелье мудро!" ] },
@@ -2114,6 +2120,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 250, "indent": 0, "parameters": [ { "name": "Cat", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Мяу!" ] },
@@ -2159,6 +2166,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Мур!" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "(Почти пришли!)" ] },
@@ -2202,6 +2210,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Nature", "direction": 2, "pattern": 1, "characterIndex": 1 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Мяу!" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "(Оппа!)" ] },
@@ -2343,6 +2352,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People1", "direction": 2, "pattern": 0, "characterIndex": 1 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "Крутящаяся девочка" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Крутиться весело!" ] },
 						{ "code": 357, "indent": 0, "parameters": [ "FesSpin", "alwaysSpin", "Always Spin", { "id": "0", "ope": "true" } ] },
@@ -2408,6 +2418,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People1", "direction": 2, "pattern": 1, "characterIndex": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "Попрошайка зелий" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Дай зелье!" ] },
 						{ "code": 102, "indent": 0, "parameters": [ [ "Да", "Нет" ], 1, 0, 2, 0 ] },
