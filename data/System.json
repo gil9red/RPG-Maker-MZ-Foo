@@ -162,9 +162,9 @@
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 },
 		{ "name": "Item3", "pan": 0, "pitch": 100, "volume": 90 }
 	],
-	"startMapId": 6,
-	"startX": 4,
-	"startY": 10,
+	"startMapId": 3,
+	"startX": 21,
+	"startY": 27,
 	"switches": [
 		"",
 		"Заброшенная деревня",
@@ -335,7 +335,7 @@
 		"",
 		""
 	],
-	"versionId": 57071342,
+	"versionId": 71674534,
 	"victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
 	"weaponTypes": [
 		"",

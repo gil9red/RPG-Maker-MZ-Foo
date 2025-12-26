@@ -2134,14 +2134,15 @@
 					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
 					"list": [
 						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
-						{ "code": 108, "indent": 0, "parameters": [ "event_text : Высматривает" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 1,
 					"moveRoute": {
 						"list": [
-							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": null },
-							{ "code": 22, "indent": null },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
 							{ "code": 0, "parameters": [] }
 						],
 						"repeat": true,
@@ -2176,8 +2177,8 @@
 					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
 					"list": [
 						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
-						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследует" ] },
-						{ "code": 301, "indent": 0, "parameters": [ 0, 1, true, false ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 0, 3, true, false ] },
 						{ "code": 601, "indent": 0, "parameters": [] },
 						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
 						{ "code": 214, "indent": 1, "parameters": [] },
@@ -2262,8 +2263,8 @@
 					"walkAnime": true
 				}
 			],
-			"x": 14,
-			"y": 30
+			"x": 21,
+			"y": 22
 		},
 		null
 	]
