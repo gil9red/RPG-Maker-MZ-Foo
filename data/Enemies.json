@@ -119,7 +119,7 @@
 		],
 		"gold": 50,
 		"name": "Циклоп",
-		"note": "Босс каменной пещеры. Вторая фаза\nОриентация на 4 ур\n\n# 1 – Vertical & Horizontal Zoom\nBreath Motion : 1\n# 0 – Slide (Right)\nEmerge Motion : 0\n# TODO: Не работает из-за VisuStella\nAura Effect : 0 : 2 : Battler : 255 : 2 : 0",
+		"note": "Босс каменной пещеры. Вторая фаза\nОриентация на 4 ур\n\n# 1 – Vertical & Horizontal Zoom\nBreath Motion : 1\n# 0 – Slide (Right)\n# TODO: Ломает появления как босса\n#Emerge Motion : 0\n# TODO: Не работает из-за VisuStella\nAura Effect : 0 : 2 : Battler : 255 : 2 : 0",
 		"params": [ 1200, 50, 40, 20, 40, 40, 50, 40 ]
 	},
 	{
