@@ -2140,6 +2140,7 @@
 					"moveFrequency": 1,
 					"moveRoute": {
 						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": null },
 							{ "code": 22, "indent": null },
 							{ "code": 0, "parameters": [] }
 						],
