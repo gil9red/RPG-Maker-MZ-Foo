@@ -112,7 +112,7 @@
 	"optDrawTitle": true,
 	"optExtraExp": false,
 	"optFloorDeath": false,
-	"optFollowers": true,
+	"optFollowers": false,
 	"optKeyItemsNumber": true,
 	"optSideView": true,
 	"optSlipDeath": false,
