@@ -7,10 +7,15 @@
 	"bgs": { "name": "Drips", "pan": 0, "pitch": 100, "volume": 60 },
 	"disableDashing": false,
 	"displayName": "Каменная пещера",
-	"encounterList": [],
+	"encounterList": [
+		{ "troopId": 1, "weight": 5, "regionSet": [] },
+		{ "troopId": 2, "weight": 5, "regionSet": [] },
+		{ "troopId": 3, "weight": 5, "regionSet": [] },
+		{ "troopId": 8, "weight": 5, "regionSet": [] }
+	],
 	"encounterStep": 30,
 	"height": 40,
-	"note": "\n",
+	"note": "<Minimum Encounter Steps: 99999>",
 	"parallaxLoopX": false,
 	"parallaxLoopY": false,
 	"parallaxName": "",
@@ -1714,8 +1719,8 @@
 					"walkAnime": true
 				}
 			],
-			"x": 3,
-			"y": 23
+			"x": 1,
+			"y": 20
 		},
 		{
 			"id": 23,
@@ -1813,8 +1818,8 @@
 					"walkAnime": true
 				}
 			],
-			"x": 12,
-			"y": 22
+			"x": 10,
+			"y": 24
 		},
 		{
 			"id": 24,
@@ -1912,8 +1917,8 @@
 					"walkAnime": true
 				}
 			],
-			"x": 12,
-			"y": 7
+			"x": 10,
+			"y": 5
 		},
 		{
 			"id": 25,
@@ -2264,8 +2269,1106 @@
 				}
 			],
 			"x": 21,
+			"y": 19
+		},
+		{
+			"id": 28,
+			"name": "TODO Символ врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 0, 3, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 12,
 			"y": 22
 		},
-		null
+		{
+			"id": 29,
+			"name": "TODO Символ врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 0, 3, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 3,
+			"y": 23
+		},
+		{
+			"id": 30,
+			"name": "TODO Символ врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 0, 3, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 12,
+			"y": 7
+		},
+		{
+			"id": 31,
+			"name": "TODO Символ случайного врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 2, 0, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 20,
+			"y": 23
+		},
+		{
+			"id": 32,
+			"name": "TODO Символ случайного врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 2, 0, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 19,
+			"y": 23
+		},
+		{
+			"id": 33,
+			"name": "TODO Символ случайного врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 2, 0, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 22,
+			"y": 23
+		},
+		{
+			"id": 34,
+			"name": "TODO Символ случайного врага (с сенсором)",
+			"note": "",
+			"pages": [
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": false,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 4" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Домой" ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 1,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 45, "parameters": [ "Step Toward Home" ], "indent": 0 },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 1,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": true,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "D",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 4, "pattern": 0, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event sensor : 6" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Преследование" ] },
+						{ "code": 301, "indent": 0, "parameters": [ 2, 0, true, false ] },
+						{ "code": 601, "indent": 0, "parameters": [] },
+						{ "code": 250, "indent": 1, "parameters": [ { "name": "Collapse1", "volume": 90, "pitch": 100, "pan": 0 } ] },
+						{ "code": 214, "indent": 1, "parameters": [] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 602, "indent": 0, "parameters": [] },
+						{ "code": 123, "indent": 1, "parameters": [ "A", 0 ] },
+						{ "code": 0, "indent": 1, "parameters": [] },
+						{ "code": 604, "indent": 0, "parameters": [] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 45, "parameters": [ "$gameTemp.requestBalloon(this,1)" ], "indent": null },
+							{ "code": 44, "parameters": [ { "name": "Jump1", "volume": 90, "pitch": 150, "pan": 0 } ], "indent": null },
+							{ "code": 14, "parameters": [ 0, 0 ], "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 10, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 9, "indent": null },
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": true,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 3,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": false,
+					"trigger": 2,
+					"walkAnime": true
+				},
+				{
+					"conditions": {
+						"actorId": 1,
+						"actorValid": false,
+						"itemId": 1,
+						"itemValid": false,
+						"selfSwitchCh": "A",
+						"selfSwitchValid": true,
+						"switch1Id": 1,
+						"switch1Valid": false,
+						"switch2Id": 1,
+						"switch2Valid": false,
+						"variableId": 1,
+						"variableValid": false,
+						"variableValue": 0
+					},
+					"directionFix": false,
+					"image": { "tileId": 0, "characterName": "!Flame", "direction": 8, "pattern": 1, "characterIndex": 4 },
+					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "event_text : Ожидание" ] },
+						{ "code": 205, "indent": 0, "parameters": [ 0, { "list": [ { "code": 42, "parameters": [ 128 ], "indent": null }, { "code": 15, "parameters": [ 120 ], "indent": null }, { "code": 42, "parameters": [ 255 ], "indent": null }, { "code": 0 } ], "repeat": false, "skippable": false, "wait": true } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 128 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 15, "parameters": [ 120 ], "indent": null } ] },
+						{ "code": 505, "indent": 0, "parameters": [ { "code": 42, "parameters": [ 255 ], "indent": null } ] },
+						{ "code": 123, "indent": 0, "parameters": [ "A", 1 ] },
+						{ "code": 0, "indent": 0, "parameters": [] }
+					],
+					"moveFrequency": 3,
+					"moveRoute": {
+						"list": [
+							{ "code": 0, "parameters": [] }
+						],
+						"repeat": true,
+						"skippable": false,
+						"wait": false
+					},
+					"moveSpeed": 3,
+					"moveType": 0,
+					"priorityType": 1,
+					"stepAnime": false,
+					"through": true,
+					"trigger": 4,
+					"walkAnime": true
+				}
+			],
+			"x": 21,
+			"y": 23
+		}
 	]
 }
