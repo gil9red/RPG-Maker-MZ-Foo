@@ -13,7 +13,7 @@
  * Become a Patron to get access to beta/alpha plugins plus other goodies!
  * https://www.patreon.com/CasperGamingRPGM
  * ============================================================================
- * Version: 1.3.0
+ * Version: 1.3.1
  * ----------------------------------------------------------------------------
  * Compatibility: Only tested with my CGMZ plugins.
  * Made for RPG Maker MZ 1.9.0
@@ -60,13 +60,14 @@
  * behaving incorrectly and your game will probably crash. Please do not
  * rename the js file.
  * --------------------------Latest Version------------------------------------
- * Hi all, this latest version adds keyboard and gamepad controls that work
- * with the clickable buttons, so now your players that do not have touch
- * controls can also activate these buttons. You can also set them to not have
- * a key or gamepad button, in which case they will remain touch only.
+ * Hi all, this latest version adds a new exact parameter to the button images,
+ * which will make it so they are only considered hovered if over the actual
+ * image (transparant edges not included). This can be useful if your images
+ * have a lot of padding around their edges that you do not want to be counted
+ * when hovering over the button.
  *
- * Version 1.3.0
- * - Added key and gamepad support for activating buttons
+ * Version 1.3.1
+ * - Added option to make hover hitbox exact
  *
  * @param Text Options
  *
@@ -166,6 +167,11 @@
  * @default 50
  * @desc The height of the button
  *
+ * @param Exact
+ * @type boolean
+ * @default false
+ * @desc If true, transparent pixels will not count as hovered
+ *
  * @param Opacity
  * @type number
  * @min 0
@@ -254,7 +260,7 @@
  * 然后获得作者和其插件的最新资讯，以及测试版插件的试用。
  * https://www.patreon.com/CasperGamingRPGM
  * ============================================================================
- * 【插件版本】V 1.3.0
+ * 【插件版本】V 1.3.1
  * ----------------------------------------------------------------------------
  * 【兼容性】仅测试作者所制作的插件
  * 【RM版本】RPG Maker MZ 1.9.0
@@ -302,13 +308,14 @@
  * rename the js file.
  * ----------------------------------------------------------------------------
  * 【版本历史】
- * Hi all, this latest version adds keyboard and gamepad controls that work
- * with the clickable buttons, so now your players that do not have touch
- * controls can also activate these buttons. You can also set them to not have
- * a key or gamepad button, in which case they will remain touch only.
+ * Hi all, this latest version adds a new exact parameter to the button images,
+ * which will make it so they are only considered hovered if over the actual
+ * image (transparant edges not included). This can be useful if your images
+ * have a lot of padding around their edges that you do not want to be counted
+ * when hovering over the button.
  *
- * Version 1.3.0
- * - Added key and gamepad support for activating buttons
+ * Version 1.3.1
+ * - Added option to make hover hitbox exact
  *
  * @param Text Options
  * @text 文本设置
@@ -421,6 +428,11 @@
  * @default 50
  * @desc 按钮的图片尺寸的高度。（默认50）
  *
+ * @param Exact
+ * @type boolean
+ * @default false
+ * @desc If true, transparent pixels will not count as hovered
+ *
  * @param Opacity
  * @type number
  * @min 0
@@ -507,7 +519,7 @@
  * alfa, ademas de otras cosas geniales!
  * https://www.patreon.com/CasperGamingRPGM
  * ============================================================================
- * Versión: 1.3.0
+ * Versión: 1.3.1
  * ----------------------------------------------------------------------------
  * Compatibilidad: Sólo probado con mis CGMZ plugins.
  * Hecho para RPG Maker MZ 1.9.0
@@ -554,13 +566,14 @@
  * behaving incorrectly and your game will probably crash. Please do not
  * rename the js file.
  * --------------------------Latest Version------------------------------------
- * Hi all, this latest version adds keyboard and gamepad controls that work
- * with the clickable buttons, so now your players that do not have touch
- * controls can also activate these buttons. You can also set them to not have
- * a key or gamepad button, in which case they will remain touch only.
+ * Hi all, this latest version adds a new exact parameter to the button images,
+ * which will make it so they are only considered hovered if over the actual
+ * image (transparant edges not included). This can be useful if your images
+ * have a lot of padding around their edges that you do not want to be counted
+ * when hovering over the button.
  *
- * Version 1.3.0
- * - Added key and gamepad support for activating buttons
+ * Version 1.3.1
+ * - Added option to make hover hitbox exact
  *
  * @param Text Options
  * @text Opciones de texto
@@ -673,6 +686,11 @@
  * @default 50
  * @desc La altura del botón
  *
+ * @param Exact
+ * @type boolean
+ * @default false
+ * @desc If true, transparent pixels will not count as hovered
+ *
  * @param Opacity
  * @type number
  * @min 0
@@ -743,7 +761,7 @@
  * @default -1
 */
 Imported.CGMZ_GameInfo = true;
-CGMZ.Versions["Game Info"] = "1.3.0";
+CGMZ.Versions["Game Info"] = "1.3.1";
 CGMZ.GameInfo = {};
 CGMZ.GameInfo.parameters = PluginManager.parameters('CGMZ_GameInfo');
 CGMZ.GameInfo.LeftText = CGMZ.GameInfo.parameters["Left Text"];
@@ -757,7 +775,7 @@ CGMZ.GameInfo.FontSize = Number(CGMZ.GameInfo.parameters["Font Size"]);
 CGMZ.GameInfo.FontOutlineWidth = Number(CGMZ.GameInfo.parameters["Font Outline Width"]);
 CGMZ.GameInfo.OpacityStep = Number(CGMZ.GameInfo.parameters["Opacity Step"]);
 CGMZ.GameInfo.BackgroundRectHeight = Number(CGMZ.GameInfo.parameters["Background Rect Height"]);
-CGMZ.GameInfo.Buttons = CGMZ_Utils.parseJSON(CGMZ.GameInfo.parameters["Buttons"], [], "CGMZ Game Info", "Your Buttons parameter was set up incorrectly and could not be read.");
+CGMZ.GameInfo.Buttons = CGMZ_Utils.parseJSON(CGMZ.GameInfo.parameters["Buttons"], [], "[CGMZ] Game Info", "Your Buttons parameter was set up incorrectly and could not be read.");
 //=============================================================================
 // Scene_Title
 //-----------------------------------------------------------------------------
@@ -840,6 +858,7 @@ Sprite_CGMZ_GameInfo_Button.prototype.initialize = function(btn) {
 	this._hoverCursor = btn["Cursor"];
 	this._keyboardGamepadInputCooldown = 0;
 	this._isKeyboardGamepadInput = false;
+	if(btn.Exact === 'true') this.CGMZ_setExact(true);
 };
 //-----------------------------------------------------------------------------
 // On destroy, turn cursor back to normal
