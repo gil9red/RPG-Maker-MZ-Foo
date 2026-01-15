@@ -107,6 +107,8 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "Nature", "direction": 4, "pattern": 0, "characterIndex": 2 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "shadow" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
 					"moveFrequency": 3,

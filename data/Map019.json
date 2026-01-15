@@ -334,6 +334,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People1", "direction": 2, "pattern": 1, "characterIndex": 4 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "shadow" ] },
 						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Хммм..." ] },
@@ -412,6 +413,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People1", "direction": 6, "pattern": 0, "characterIndex": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "shadow" ] },
 						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],
@@ -460,6 +462,7 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People2", "direction": 8, "pattern": 0, "characterIndex": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "shadow" ] },
 						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 0, "indent": 0, "parameters": [] }
 					],

@@ -576,6 +576,8 @@
 					"directionFix": false,
 					"image": { "characterIndex": 5, "characterName": "People1", "direction": 2, "pattern": 1, "tileId": 0 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "shadow" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2 ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Цена 10 \\G на одну ночь. Хотите остановиться?" ] },
 						{ "code": 102, "indent": 0, "parameters": [ [ "Да", "Нет" ], 1, 0, 2, 0 ] },
@@ -646,6 +648,8 @@
 					"directionFix": false,
 					"image": { "tileId": 0, "characterName": "People3", "direction": 2, "pattern": 1, "characterIndex": 4 },
 					"list": [
+						{ "code": 108, "indent": 0, "parameters": [ "shadow" ] },
+						{ "code": 108, "indent": 0, "parameters": [ "<actionIcon: 4>" ] },
 						{ "code": 101, "indent": 0, "parameters": [ "", 0, 0, 2, "" ] },
 						{ "code": 401, "indent": 0, "parameters": [ "Я странствующий торговец. Пожалуйста купи что-нибудь" ] },
 						{ "code": 302, "indent": 0, "parameters": [ 0, 7, 0, 0, false ] },
