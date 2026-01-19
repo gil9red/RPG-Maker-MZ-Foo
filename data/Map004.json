@@ -2652,7 +2652,7 @@
 		null,
 		{
 			"id": 1,
-			"name": "Перемещение (Field Map)",
+			"name": "MAP_Field_Map",
 			"note": "",
 			"pages": [
 				{
