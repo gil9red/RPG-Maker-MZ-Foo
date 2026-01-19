@@ -1062,7 +1062,7 @@
 		},
 		{
 			"id": 11,
-			"name": "Северный вход. Перемещение (Field Map)",
+			"name": "MAP_Северный_вход_Field_Map",
 			"note": "<Hitbox Right: 2>",
 			"pages": [
 				{
